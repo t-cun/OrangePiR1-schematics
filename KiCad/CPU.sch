@@ -1,0 +1,2911 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 6 13
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 1550 1225 0    43   Output ~ 0
+UART2_TX
+Wire Wire Line
+	1550 1225 1825 1225
+Wire Wire Line
+	1550 1300 1825 1300
+Wire Wire Line
+	1550 1375 1825 1375
+Wire Wire Line
+	1550 1450 1825 1450
+Wire Wire Line
+	1550 1525 1825 1525
+Wire Wire Line
+	1550 1600 1825 1600
+Wire Wire Line
+	1550 1675 1825 1675
+Wire Wire Line
+	1550 1750 1825 1750
+Wire Wire Line
+	1550 1825 1825 1825
+Wire Wire Line
+	1550 1900 1825 1900
+Wire Wire Line
+	1550 1975 1825 1975
+Wire Wire Line
+	1550 2050 1825 2050
+Wire Wire Line
+	1550 2125 1825 2125
+Wire Wire Line
+	1550 2200 1825 2200
+Wire Wire Line
+	1550 2275 1825 2275
+Wire Wire Line
+	1550 2350 1825 2350
+Wire Wire Line
+	1550 2425 1825 2425
+Wire Wire Line
+	1550 2500 1825 2500
+Wire Wire Line
+	1550 2575 1825 2575
+Wire Wire Line
+	1550 2650 1825 2650
+Wire Wire Line
+	1550 2725 1825 2725
+Wire Wire Line
+	1550 2800 1825 2800
+$Comp
+L 1_OrangePiR1:H3-BGA3XX_11 U1
+U 4 1 5FA3D385
+P 2025 900
+F 0 "U1" H 2175 975 50  0000 C CNN
+F 1 "H3-BGA3XX_11" H 2375 -2800 50  0000 C CNN
+F 2 "1_OrangePiR1:H3-BGA3XX_11" H 2075 950 50  0001 C CNN
+F 3 "" H 2075 950 50  0001 C CNN
+	4    2025 900 
+	1    0    0    -1  
+$EndComp
+Text GLabel 1550 1300 0    43   Output ~ 0
+UART2_RX
+Text GLabel 1550 1375 0    43   Output ~ 0
+UART2_RTS
+Text GLabel 1550 1450 0    43   Output ~ 0
+UART2_CTS
+Text GLabel 1550 1525 0    43   Output ~ 0
+CPUX-UTX
+Text GLabel 1550 1600 0    43   Output ~ 0
+CPUX-URX
+Text GLabel 1550 1675 0    43   Output ~ 0
+PWM1
+Text GLabel 1550 1750 0    43   Output ~ 0
+PA7
+Text GLabel 1550 1825 0    43   Output ~ 0
+PA8
+Text GLabel 1550 1900 0    43   Output ~ 0
+PA9
+Text GLabel 1550 1975 0    43   Output ~ 0
+PA10
+Text GLabel 1550 2050 0    43   Output ~ 0
+TWI0-SCK
+Text GLabel 1550 2125 0    43   Output ~ 0
+TWI0-SDA
+Text GLabel 1550 2200 0    43   Output ~ 0
+SPI1_CS
+Text GLabel 1550 2275 0    43   Output ~ 0
+SPI1_CLK
+Text GLabel 1550 2350 0    43   Output ~ 0
+SPI1_MOSI
+Text GLabel 1550 2425 0    43   Output ~ 0
+SPI1_MISO
+Text GLabel 1550 2500 0    43   Output ~ 0
+STATUS-LED
+Text GLabel 1550 2575 0    43   Output ~ 0
+TWI1-SCK
+Text GLabel 1550 2650 0    43   Output ~ 0
+TWI1-SDA
+Text GLabel 1550 2725 0    43   Output ~ 0
+USB-EPHY-PWR
+Text GLabel 1550 2800 0    43   Output ~ 0
+PA21
+Text Notes 1000 1250 0    43   ~ 0
+13
+Text Notes 1000 1325 0    43   ~ 0
+13
+Text Notes 1000 1400 0    43   ~ 0
+13
+Text Notes 1000 1475 0    43   ~ 0
+13
+Text Notes 1000 1550 0    43   ~ 0
+13
+Text Notes 1000 1625 0    43   ~ 0
+13
+Text Notes 1225 1725 0    43   ~ 0
+13
+Text Notes 1225 1800 0    43   ~ 0
+13
+Text Notes 1225 2000 0    43   ~ 0
+13
+Text Notes 1050 2075 0    43   ~ 0
+13
+Text Notes 1050 2150 0    43   ~ 0
+13
+Text Notes 1050 2225 0    43   ~ 0
+13
+Text Notes 1050 2300 0    43   ~ 0
+13
+Text Notes 1050 2375 0    43   ~ 0
+13
+Text Notes 1050 2450 0    43   ~ 0
+13
+Text Notes 950  2525 0    43   ~ 0
+13
+Text Notes 1050 2625 0    43   ~ 0
+13
+Text Notes 1050 2675 0    43   ~ 0
+13
+Text Notes 1050 2675 0    43   ~ 0
+13
+Wire Wire Line
+	1550 3400 1825 3400
+Wire Wire Line
+	1550 3475 1825 3475
+Wire Wire Line
+	1550 3550 1825 3550
+Wire Wire Line
+	1550 3625 1825 3625
+Wire Wire Line
+	1550 3700 1825 3700
+Wire Wire Line
+	1550 3775 1825 3775
+Wire Wire Line
+	1550 3850 1825 3850
+Text GLabel 1550 3400 0    43   Output ~ 0
+SDC0-D1
+Text GLabel 1550 3475 0    43   Output ~ 0
+SDC0-D0
+Text GLabel 1550 3550 0    43   Output ~ 0
+SDC0-CLK
+Text GLabel 1550 3625 0    43   Output ~ 0
+SDC0-CMD
+Text GLabel 1550 3700 0    43   Output ~ 0
+SDC0-D3
+Text GLabel 1550 3775 0    43   Output ~ 0
+SDC0-D2
+Text GLabel 1550 3850 0    43   Output ~ 0
+SDC0-DET
+Text Notes 1075 3425 0    43   ~ 0
+8
+Text Notes 1075 3500 0    43   ~ 0
+8
+Text Notes 1075 3575 0    43   ~ 0
+8
+Text Notes 1075 3650 0    43   ~ 0
+8
+Text Notes 1075 3725 0    43   ~ 0
+8
+Text Notes 1075 3800 0    43   ~ 0
+8
+Text Notes 1075 3875 0    43   ~ 0
+8
+$Comp
+L 1_OrangePiR1:VCC-IO #PWR0119
+U 1 1 5FA7D1A6
+P 6450 1025
+F 0 "#PWR0119" H 6450 875 50  0001 C CNN
+F 1 "VCC-IO" H 6453 1152 50  0000 C CNN
+F 2 "" H 6450 1025 50  0001 C CNN
+F 3 "" H 6450 1025 50  0001 C CNN
+	1    6450 1025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6075 1225 6450 1225
+Wire Wire Line
+	6450 1225 6450 1025
+Wire Wire Line
+	6100 1550 6850 1550
+Wire Wire Line
+	6100 1775 6850 1775
+Text Label 6250 1775 0    50   ~ 0
+RXD0-SELRGV
+Wire Wire Line
+	6100 1625 6850 1625
+Wire Wire Line
+	6100 1700 6850 1700
+Wire Wire Line
+	6100 1850 6850 1850
+Wire Wire Line
+	6100 1925 6850 1925
+Wire Wire Line
+	6100 2000 6850 2000
+Wire Wire Line
+	6100 2075 6850 2075
+Wire Wire Line
+	6100 2150 6850 2150
+Wire Wire Line
+	6100 2225 6850 2225
+Wire Wire Line
+	6100 2300 6850 2300
+Wire Wire Line
+	6100 2450 6850 2450
+Wire Wire Line
+	6100 2525 6850 2525
+Wire Wire Line
+	6100 2600 6850 2600
+Wire Wire Line
+	6100 2675 6850 2675
+Wire Wire Line
+	6100 2750 6850 2750
+Wire Wire Line
+	6100 2825 6850 2825
+Wire Wire Line
+	6100 3175 6250 3175
+Wire Wire Line
+	6100 3250 6250 3250
+Wire Wire Line
+	6100 3325 6250 3325
+Wire Wire Line
+	6100 3400 6250 3400
+Wire Wire Line
+	6100 3475 6250 3475
+Wire Wire Line
+	6100 3550 6250 3550
+Wire Wire Line
+	6100 3625 6250 3625
+Wire Wire Line
+	6100 3700 6250 3700
+Wire Wire Line
+	6100 3775 6250 3775
+Wire Wire Line
+	6100 3850 6250 3850
+Wire Wire Line
+	6100 3925 6250 3925
+Wire Wire Line
+	6100 4000 6250 4000
+Wire Wire Line
+	6100 4075 6250 4075
+Wire Wire Line
+	6100 4150 6250 4150
+Wire Wire Line
+	6100 4225 6250 4225
+Wire Wire Line
+	6100 4300 6250 4300
+Text GLabel 6850 1550 2    43   Output ~ 0
+ERXD3
+Text GLabel 6850 1625 2    43   Output ~ 0
+ERXD2
+Text GLabel 6850 1700 2    43   Output ~ 0
+ERXD1
+Text GLabel 6850 1775 2    43   Output ~ 0
+ERXD0
+Text GLabel 6850 1850 2    43   Output ~ 0
+ERXCK
+Text GLabel 6850 1925 2    43   Output ~ 0
+ERXDV
+Text GLabel 6850 2000 2    43   Output ~ 0
+EMAC-PWR-EN
+Text GLabel 6850 2075 2    43   Output ~ 0
+ETXD3
+Text GLabel 6850 2150 2    43   Output ~ 0
+ETXD2
+Text GLabel 6850 2225 2    43   Output ~ 0
+ETXD1
+Text GLabel 6850 2300 2    43   Output ~ 0
+ETXD0
+Text GLabel 6850 2450 2    43   Output ~ 0
+ECRS
+Text GLabel 6850 2525 2    43   Output ~ 0
+ETXEN
+Text GLabel 6850 2600 2    43   Output ~ 0
+PD14
+Text GLabel 6850 2675 2    43   Output ~ 0
+ECOL
+Text GLabel 6850 2750 2    43   Output ~ 0
+EMDC
+Text GLabel 6850 2825 2    43   Output ~ 0
+EMDIO
+NoConn ~ 6100 2375
+Text GLabel 6250 3175 2    43   Output ~ 0
+CSI-PCLK
+Text GLabel 6250 3250 2    43   Output ~ 0
+CSI-MCLK
+Text GLabel 6250 3325 2    43   Output ~ 0
+CSI-HSYNC
+Text GLabel 6250 3400 2    43   Output ~ 0
+CSI-VSYNC
+Text GLabel 6250 3475 2    43   Output ~ 0
+CSI-D0
+Text GLabel 6250 3550 2    43   Output ~ 0
+CSI-D1
+Text GLabel 6250 3625 2    43   Output ~ 0
+CSI-D2
+Text GLabel 6250 3700 2    43   Output ~ 0
+CSI-D3
+Text GLabel 6250 3775 2    43   Output ~ 0
+CSI-D4
+Text GLabel 6250 3850 2    43   Output ~ 0
+CSI-D5
+Text GLabel 6250 3925 2    43   Output ~ 0
+CSI-D6
+Text GLabel 6250 4000 2    43   Output ~ 0
+CSI-D7
+Text GLabel 6250 4075 2    43   Output ~ 0
+CSI-SCK
+Text GLabel 6250 4150 2    43   Output ~ 0
+CSI-SDA
+Text GLabel 6250 4225 2    43   Output ~ 0
+CSI-RESET#
+Text GLabel 6250 4300 2    43   Output ~ 0
+CSI-STBY-EN
+Text Label 6250 1550 0    50   ~ 0
+RXD3-AN1
+Text Label 6250 1625 0    50   ~ 0
+RXD2-AN0
+Text Label 6250 1700 0    50   ~ 0
+RXD1-TXDLY
+Text Label 6250 1850 0    50   ~ 0
+GRXCK
+Text Label 6250 1925 0    50   ~ 0
+RXCTL-AD2
+Text Label 6250 2075 0    50   ~ 0
+TXD3
+Text Label 6250 2150 0    50   ~ 0
+TXD2
+Text Label 6250 2225 0    50   ~ 0
+TXD1
+Text Label 6250 2300 0    50   ~ 0
+TXD0
+Text Label 6250 2450 0    50   ~ 0
+GTXCK
+Text Label 6250 2525 0    50   ~ 0
+TXCTL
+Text Label 6250 2675 0    50   ~ 0
+GCLKIN
+Text Label 6250 2750 0    50   ~ 0
+MDC
+Text Label 6250 2825 0    50   ~ 0
+GMDIO
+Text Notes 7200 1575 0    43   ~ 0
+11
+Text Notes 7200 1650 0    43   ~ 0
+11
+Text Notes 7200 1725 0    43   ~ 0
+11
+Text Notes 7200 1800 0    43   ~ 0
+11
+Text Notes 7200 1875 0    43   ~ 0
+11
+Text Notes 7200 1950 0    43   ~ 0
+11
+Text Notes 7475 2025 0    43   ~ 0
+11
+Text Notes 7200 2125 0    43   ~ 0
+11
+Text Notes 7200 2200 0    43   ~ 0
+11
+Text Notes 7200 2275 0    43   ~ 0
+11
+Text Notes 7200 2350 0    43   ~ 0
+11
+Text Notes 7200 2475 0    43   ~ 0
+11
+Text Notes 7200 2550 0    43   ~ 0
+11
+Text Notes 7200 2700 0    43   ~ 0
+11
+Text Notes 7200 2775 0    43   ~ 0
+11
+Text Notes 7200 2850 0    43   ~ 0
+11
+$Comp
+L 1_OrangePiR1:H3-BGA3XX_11 U1
+U 6 1 5FABE59A
+P 2800 5000
+F 0 "U1" H 2925 5050 50  0000 C CNN
+F 1 "H3-BGA3XX_11" H 3525 2700 50  0000 C CNN
+F 2 "1_OrangePiR1:H3-BGA3XX_11" H 2850 5050 50  0001 C CNN
+F 3 "" H 2850 5050 50  0001 C CNN
+	6    2800 5000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2600 5350
+NoConn ~ 2600 5425
+NoConn ~ 2600 5950
+NoConn ~ 2600 6025
+Wire Wire Line
+	2600 5125 2375 5125
+Wire Wire Line
+	2600 5200 2375 5200
+Wire Wire Line
+	2375 5275 2600 5275
+Wire Wire Line
+	2600 5500 2250 5500
+Wire Wire Line
+	2250 5575 2600 5575
+Wire Wire Line
+	2600 6100 2275 6100
+Wire Wire Line
+	2150 5800 2600 5800
+Text GLabel 2375 5125 0    43   Output ~ 0
+MIC-MBIAS
+Text GLabel 2375 5200 0    43   Output ~ 0
+MIC1P
+Text GLabel 2375 5275 0    43   Output ~ 0
+MIC1N
+Text GLabel 2250 5500 0    43   Output ~ 0
+LINEOUTR
+Text GLabel 2250 5575 0    43   Output ~ 0
+LINEOUTL
+Wire Wire Line
+	2275 5650 2600 5650
+Wire Wire Line
+	2275 5725 2600 5725
+Text Label 2350 5650 0    50   ~ 0
+VRA1
+Text Label 2350 5725 0    50   ~ 0
+VRA2
+Wire Wire Line
+	2600 5875 2275 5875
+Text Label 2350 5875 0    50   ~ 0
+VRP
+Text Label 2350 6100 0    50   ~ 0
+AGND
+$Comp
+L 1_OrangePiR1:AVCC #PWR0120
+U 1 1 5FB36B59
+P 2150 5800
+F 0 "#PWR0120" H 2150 5650 50  0001 C CNN
+F 1 "AVCC" V 2150 5881 50  0000 L CNN
+F 2 "" H 2150 5800 50  0001 C CNN
+F 3 "" H 2150 5800 50  0001 C CNN
+	1    2150 5800
+	0    -1   -1   0   
+$EndComp
+Text Notes 1850 5150 0    43   ~ 0
+13
+Text Notes 2000 5250 0    43   ~ 0
+13
+Text Notes 2000 5325 0    43   ~ 0
+13
+Text Notes 1800 5525 0    43   ~ 0
+13
+Text Notes 1800 5600 0    43   ~ 0
+13
+Text GLabel 2275 6450 0    43   Output ~ 0
+EPHY-RXP
+Wire Wire Line
+	2600 6450 2275 6450
+Wire Wire Line
+	2600 6525 2275 6525
+Wire Wire Line
+	2600 6600 2275 6600
+Wire Wire Line
+	2600 6675 2275 6675
+Wire Wire Line
+	2600 6825 2550 6825
+Wire Wire Line
+	2600 6900 2450 6900
+Text GLabel 2275 6525 0    43   Output ~ 0
+EPHY-RXN
+Text GLabel 2275 6600 0    43   Output ~ 0
+EPHY-TXP
+Text GLabel 2275 6675 0    43   Output ~ 0
+EPHY-TXN
+Text GLabel 2275 6825 0    43   Output ~ 0
+EPHY-LINK-LED
+Text GLabel 2275 6900 0    43   Output ~ 0
+EPHY-SPD-LED
+$Comp
+L 1_OrangePiR1:RES402 R5
+U 1 1 5FB693D0
+P 1575 6750
+F 0 "R5" V 1500 6575 50  0000 C CNN
+F 1 "RES402" V 1500 6750 50  0001 C CNN
+F 2 "1_OrangePiR1:RES0402" V 1505 6750 50  0001 C CNN
+F 3 "" H 1575 6750 50  0001 C CNN
+F 4 "6K04Ω" V 1475 6750 50  0000 C CNN "Resistance"
+F 5 "0402" V 1400 6750 50  0000 C CNN "Package"
+F 6 "1%" V 1325 6750 50  0000 C CNN "Tolerance"
+	1    1575 6750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1725 6750 2600 6750
+$Comp
+L 1_OrangePiR1:GND #PWR0121
+U 1 1 5FB70246
+P 1350 6750
+F 0 "#PWR0121" H 1350 6500 50  0001 C CNN
+F 1 "GND" H 1355 6577 50  0000 C CNN
+F 2 "" H 1350 6750 50  0001 C CNN
+F 3 "" H 1350 6750 50  0001 C CNN
+	1    1350 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1425 6750 1350 6750
+$Comp
+L 1_OrangePiR1:VCC3V3-EPHY #PWR0122
+U 1 1 5FB7A511
+P 1950 7150
+F 0 "#PWR0122" H 1950 7000 50  0001 C CNN
+F 1 "VCC3V3-EPHY" V 1950 7231 50  0000 L CNN
+F 2 "" H 1950 7150 50  0001 C CNN
+F 3 "" H 1950 7150 50  0001 C CNN
+	1    1950 7150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L 1_OrangePiR1:VDD1V1-EPHY #PWR0123
+U 1 1 5FB7BEAA
+P 1950 7025
+F 0 "#PWR0123" H 1950 6875 50  0001 C CNN
+F 1 "VDD1V1-EPHY" V 1950 7106 50  0000 L CNN
+F 2 "" H 1950 7025 50  0001 C CNN
+F 3 "" H 1950 7025 50  0001 C CNN
+	1    1950 7025
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2050 7025 2050 6975
+Wire Wire Line
+	2050 6975 2225 6975
+Wire Wire Line
+	1950 7025 2050 7025
+Wire Wire Line
+	1950 7150 1975 7150
+Wire Wire Line
+	2125 7150 2125 7050
+Wire Wire Line
+	2125 7050 2600 7050
+$Comp
+L 1_OrangePiR1:CAP0402 C6
+U 1 1 5FB99AA6
+P 1975 7550
+F 0 "C6" H 2025 7675 50  0000 L CNN
+F 1 "CAP0402" H 1975 7750 50  0001 C CNN
+F 2 "1_OrangePiR1:CAP0402" H 1825 7650 50  0001 C CNN
+F 3 "" H 1825 7650 50  0001 C CNN
+F 4 "0.1uF" H 2000 7450 50  0000 L CNN "Capacitance"
+F 5 "50V" H 2145 7530 50  0001 C CNN "Voltage"
+F 6 "0402" H 2000 7375 50  0000 L CNN "Package"
+	1    1975 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_OrangePiR1:CAP0402 C7
+U 1 1 5FB9EA1B
+P 2225 7550
+F 0 "C7" H 2250 7675 50  0000 L CNN
+F 1 "CAP0402" H 2225 7750 50  0001 C CNN
+F 2 "1_OrangePiR1:CAP0402" H 2075 7650 50  0001 C CNN
+F 3 "" H 2075 7650 50  0001 C CNN
+F 4 "0.1uF" H 2250 7450 50  0000 L CNN "Capacitance"
+F 5 "50V" H 2395 7530 50  0001 C CNN "Voltage"
+F 6 "0402" H 2250 7375 50  0000 L CNN "Package"
+	1    2225 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_OrangePiR1:GND #PWR0124
+U 1 1 5FBA8CB2
+P 1975 7850
+F 0 "#PWR0124" H 1975 7600 50  0001 C CNN
+F 1 "GND" H 1980 7677 50  0000 C CNN
+F 2 "" H 1975 7850 50  0001 C CNN
+F 3 "" H 1975 7850 50  0001 C CNN
+	1    1975 7850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1975 7850 1975 7800
+Wire Wire Line
+	1975 7800 2225 7800
+Connection ~ 1975 7800
+Connection ~ 1975 7150
+Connection ~ 2225 6975
+Wire Wire Line
+	1975 7150 2125 7150
+Wire Wire Line
+	2225 6975 2600 6975
+$Comp
+L 1_OrangePiR1:CAP0402 C10
+U 1 1 5FBCD9C4
+P 2450 7375
+F 0 "C10" H 2450 7475 50  0000 L CNN
+F 1 "CAP0402" H 2450 7575 50  0001 C CNN
+F 2 "1_OrangePiR1:CAP0402" H 2300 7475 50  0001 C CNN
+F 3 "" H 2300 7475 50  0001 C CNN
+F 4 "0.1uF" H 2475 7275 50  0000 L CNN "Capacitance"
+F 5 "50V" H 2620 7355 50  0001 C CNN "Voltage"
+F 6 "0402" H 2475 7200 50  0000 L CNN "Package"
+	1    2450 7375
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_OrangePiR1:CAP0402 C8
+U 1 1 5FBCEB79
+P 2675 7375
+F 0 "C8" H 2700 7475 50  0000 L CNN
+F 1 "CAP0402" H 2675 7575 50  0001 C CNN
+F 2 "1_OrangePiR1:CAP0402" H 2525 7475 50  0001 C CNN
+F 3 "" H 2525 7475 50  0001 C CNN
+F 4 "0.1uF" H 2700 7275 50  0000 L CNN "Capacitance"
+F 5 "50V" H 2845 7355 50  0001 C CNN "Voltage"
+F 6 "0402" H 2700 7200 50  0000 L CNN "Package"
+	1    2675 7375
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_OrangePiR1:GND #PWR0125
+U 1 1 5FBD3399
+P 2675 7650
+F 0 "#PWR0125" H 2675 7400 50  0001 C CNN
+F 1 "GND" H 2680 7477 50  0000 C CNN
+F 2 "" H 2675 7650 50  0001 C CNN
+F 3 "" H 2675 7650 50  0001 C CNN
+	1    2675 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2675 7650 2675 7600
+Wire Wire Line
+	2450 7600 2675 7600
+Connection ~ 2675 7600
+Connection ~ 2450 6900
+Wire Wire Line
+	2450 6900 2275 6900
+Wire Wire Line
+	2675 7175 2550 7175
+Wire Wire Line
+	2550 7175 2550 6825
+Connection ~ 2550 6825
+Wire Wire Line
+	2550 6825 2275 6825
+Text Notes 1775 6550 0    43   ~ 0
+10
+Text Notes 1775 6475 0    43   ~ 0
+10
+Text Notes 1775 6625 0    43   ~ 0
+10
+Text Notes 1775 6700 0    43   ~ 0
+10
+Text Notes 1600 6850 0    43   ~ 0
+10
+Text Notes 1600 6925 0    43   ~ 0
+10
+Text Notes 2725 7675 0    43   ~ 0
+close IC
+Wire Wire Line
+	1975 7150 1975 7425
+Wire Wire Line
+	1975 7675 1975 7800
+Wire Wire Line
+	2225 7675 2225 7800
+Wire Wire Line
+	2225 6975 2225 7425
+Wire Wire Line
+	2450 7500 2450 7600
+Wire Wire Line
+	2675 7500 2675 7600
+Wire Wire Line
+	2675 7175 2675 7250
+Wire Wire Line
+	2450 6900 2450 7250
+Wire Wire Line
+	4650 5125 4475 5125
+$Comp
+L 1_OrangePiR1:CAP0402 C2
+U 1 1 603E3D21
+P 4775 5125
+F 0 "C2" V 4650 5075 50  0000 L CNN
+F 1 "CAP0402" H 4775 5325 50  0001 C CNN
+F 2 "1_OrangePiR1:CAP0402" H 4625 5225 50  0001 C CNN
+F 3 "" H 4625 5225 50  0001 C CNN
+F 4 "0.1uF" V 4725 5225 50  0000 L CNN "Capacitance"
+F 5 "50V" H 4945 5105 50  0001 C CNN "Voltage"
+F 6 "0402" V 4725 4875 50  0000 L CNN "Package"
+	1    4775 5125
+	0    1    1    0   
+$EndComp
+$Comp
+L 1_OrangePiR1:VCC3V3-HDMI #PWR0126
+U 1 1 603EF091
+P 4475 4975
+F 0 "#PWR0126" H 4475 4825 50  0001 C CNN
+F 1 "VCC3V3-HDMI" H 4475 5102 50  0000 C CNN
+F 2 "" H 4475 4975 50  0001 C CNN
+F 3 "" H 4475 4975 50  0001 C CNN
+	1    4475 4975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4475 4975 4475 5125
+Connection ~ 4475 5125
+Wire Wire Line
+	4475 5125 4425 5125
+$Comp
+L 1_OrangePiR1:GND #PWR0127
+U 1 1 603F4157
+P 5150 5125
+F 0 "#PWR0127" H 5150 4875 50  0001 C CNN
+F 1 "GND" H 5155 4952 50  0000 C CNN
+F 2 "" H 5150 5125 50  0001 C CNN
+F 3 "" H 5150 5125 50  0001 C CNN
+	1    5150 5125
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4900 5125 5075 5125
+Wire Wire Line
+	4425 5200 5075 5200
+Wire Wire Line
+	5075 5200 5075 5125
+Connection ~ 5075 5125
+Wire Wire Line
+	5075 5125 5150 5125
+Wire Wire Line
+	4425 5350 4625 5350
+Wire Wire Line
+	4625 5425 4425 5425
+Wire Wire Line
+	4425 5500 4625 5500
+Wire Wire Line
+	4625 5575 4425 5575
+Wire Wire Line
+	4425 5650 4625 5650
+Wire Wire Line
+	4625 5725 4425 5725
+Wire Wire Line
+	4425 5800 4625 5800
+Wire Wire Line
+	4625 5875 4425 5875
+Wire Wire Line
+	4425 5950 4625 5950
+Wire Wire Line
+	4625 6025 4425 6025
+Wire Wire Line
+	4425 6100 4625 6100
+Wire Wire Line
+	4625 6175 4425 6175
+Text GLabel 4625 5350 2    43   Output ~ 0
+HTX0P
+Text GLabel 4625 5425 2    43   Output ~ 0
+HTX0N
+Text GLabel 4625 5500 2    43   Output ~ 0
+HTX1P
+Text GLabel 4625 5575 2    43   Output ~ 0
+HTX1N
+Text GLabel 4625 5650 2    43   Output ~ 0
+HTX2P
+Text GLabel 4625 5725 2    43   Output ~ 0
+HTX2N
+Text GLabel 4625 5800 2    43   Output ~ 0
+HTXCP
+Text GLabel 4625 5875 2    43   Output ~ 0
+HTXCN
+Text GLabel 4625 5950 2    43   Output ~ 0
+HHPD
+Text GLabel 4625 6025 2    43   Output ~ 0
+HCEC
+Text GLabel 4625 6100 2    43   Output ~ 0
+HSDA
+Text GLabel 4625 6175 2    43   Output ~ 0
+HSCL
+Text GLabel 4625 6900 2    43   Output ~ 0
+TV-OUT
+Wire Wire Line
+	4425 6900 4625 6900
+Text Notes 4950 6925 0    43   ~ 0
+13
+$Comp
+L 1_OrangePiR1:VCC3V-TV #PWR0128
+U 1 1 60440D0E
+P 5075 6975
+F 0 "#PWR0128" H 5075 6825 50  0001 C CNN
+F 1 "VCC3V-TV" V 5075 7055 50  0000 L CNN
+F 2 "" H 5075 6975 50  0001 C CNN
+F 3 "" H 5075 6975 50  0001 C CNN
+	1    5075 6975
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5075 6975 4875 6975
+$Comp
+L 1_OrangePiR1:GND #PWR0129
+U 1 1 60448AE1
+P 4500 7325
+F 0 "#PWR0129" H 4500 7075 50  0001 C CNN
+F 1 "GND" H 4505 7152 50  0000 C CNN
+F 2 "" H 4500 7325 50  0001 C CNN
+F 3 "" H 4500 7325 50  0001 C CNN
+	1    4500 7325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 7325 4500 7275
+Wire Wire Line
+	4500 7050 4425 7050
+$Comp
+L 1_OrangePiR1:CAP0402 C9
+U 1 1 6044FE67
+P 4875 7150
+F 0 "C9" H 4900 7250 50  0000 L CNN
+F 1 "CAP0402" H 4875 7350 50  0001 C CNN
+F 2 "1_OrangePiR1:CAP0402" H 4725 7250 50  0001 C CNN
+F 3 "" H 4725 7250 50  0001 C CNN
+F 4 "0.1uF" H 4900 7050 50  0000 L CNN "Capacitance"
+F 5 "50V" H 5045 7130 50  0001 C CNN "Voltage"
+F 6 "0402" H 4900 6975 50  0000 L CNN "Package"
+	1    4875 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4875 7025 4875 6975
+Connection ~ 4875 6975
+Wire Wire Line
+	4875 6975 4425 6975
+Wire Wire Line
+	4875 7275 4500 7275
+Connection ~ 4500 7275
+Wire Wire Line
+	4500 7275 4500 7050
+$Comp
+L 1_OrangePiR1:H3-BGA3XX_11 U1
+U 3 1 6046583C
+P 8150 1025
+F 0 "U1" H 8300 1100 50  0000 C CNN
+F 1 "H3-BGA3XX_11" H 8500 -600 50  0000 C CNN
+F 2 "1_OrangePiR1:H3-BGA3XX_11" H 8200 1075 50  0001 C CNN
+F 3 "" H 8200 1075 50  0001 C CNN
+	3    8150 1025
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_OrangePiR1:VCC-IO #PWR0130
+U 1 1 60489977
+P 9775 1075
+F 0 "#PWR0130" H 9775 925 50  0001 C CNN
+F 1 "VCC-IO" H 9778 1202 50  0000 C CNN
+F 2 "" H 9775 1075 50  0001 C CNN
+F 3 "" H 9775 1075 50  0001 C CNN
+	1    9775 1075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9625 1150 9775 1150
+Wire Wire Line
+	9775 1150 9775 1075
+Wire Wire Line
+	9625 1375 9850 1375
+Wire Wire Line
+	9850 1450 9625 1450
+Wire Wire Line
+	9850 1525 9625 1525
+Wire Wire Line
+	9625 1600 9850 1600
+Wire Wire Line
+	9850 1675 9625 1675
+Wire Wire Line
+	9850 1750 9625 1750
+Wire Wire Line
+	9625 1825 9850 1825
+Wire Wire Line
+	9850 1900 9625 1900
+Wire Wire Line
+	9850 2125 9625 2125
+Wire Wire Line
+	9625 2275 9850 2275
+Text GLabel 9850 1375 2    43   Output ~ 0
+WL-SDIO-CLK
+Text GLabel 9850 1450 2    43   Output ~ 0
+WL-SDIO-CMD
+Text GLabel 9850 1525 2    43   Output ~ 0
+WL-SDIO-D0
+Text GLabel 9850 1600 2    43   Output ~ 0
+WL-SDIO-D1
+Text GLabel 9850 1675 2    43   Output ~ 0
+WL-SDIO-D2
+Text GLabel 9850 1750 2    43   Output ~ 0
+WL-SDIO-D3
+Text GLabel 9850 1825 2    43   Output ~ 0
+UART1_TX
+Text GLabel 9850 1900 2    43   Output ~ 0
+UART1_RX
+Text GLabel 9850 2125 2    43   Output ~ 0
+WL-WAKE-AP
+Text GLabel 9850 2275 2    43   Output ~ 0
+USB0-IDDET
+Text Notes 10400 1400 0    43   ~ 0
+12
+Text Notes 10400 1475 0    43   ~ 0
+12
+Text Notes 10375 1550 0    43   ~ 0
+12
+Text Notes 10375 1625 0    43   ~ 0
+12
+Text Notes 10375 1700 0    43   ~ 0
+12
+Text Notes 10375 1775 0    43   ~ 0
+12
+Text Notes 10250 1850 0    43   ~ 0
+13
+Text Notes 10250 1925 0    43   ~ 0
+13
+Text Notes 10375 2150 0    43   ~ 0
+12
+Text Notes 10350 2300 0    43   ~ 0
+9
+$Comp
+L 1_OrangePiR1:H3-BGA3XX_11 U1
+U 2 1 604E6016
+P 8000 3175
+F 0 "U1" H 8100 3250 50  0000 C CNN
+F 1 "H3-BGA3XX_11" H 8275 1300 50  0000 C CNN
+F 2 "1_OrangePiR1:H3-BGA3XX_11" H 8050 3225 50  0001 C CNN
+F 3 "" H 8050 3225 50  0001 C CNN
+	2    8000 3175
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9450 4775
+NoConn ~ 9450 4700
+NoConn ~ 9450 4625
+NoConn ~ 9450 4550
+NoConn ~ 9450 4475
+NoConn ~ 9450 4400
+NoConn ~ 9450 4325
+NoConn ~ 9450 4250
+NoConn ~ 9450 4175
+Wire Wire Line
+	9450 4100 9725 4100
+NoConn ~ 9450 4025
+NoConn ~ 9450 3950
+Wire Wire Line
+	9725 3875 9450 3875
+Wire Wire Line
+	9450 3800 9725 3800
+Wire Wire Line
+	9725 3725 9450 3725
+Wire Wire Line
+	9450 3650 9725 3650
+Wire Wire Line
+	9725 3575 9450 3575
+Text GLabel 9725 3575 2    43   Output ~ 0
+SPI0_MOSI
+Text GLabel 9725 3650 2    43   Output ~ 0
+SPI0_MISO
+Text GLabel 9725 3725 2    43   Output ~ 0
+SPI0_CLK
+Text GLabel 9725 3800 2    43   Output ~ 0
+SPI0_CS0
+Text GLabel 9725 3875 2    43   Output ~ 0
+PC4
+Text GLabel 9725 4100 2    43   Output ~ 0
+PC7
+Text Notes 10150 3600 0    43   ~ 0
+8
+Text Notes 10150 3675 0    43   ~ 0
+8
+Text Notes 10125 3750 0    43   ~ 0
+8
+Text Notes 10125 3825 0    43   ~ 0
+8
+$Comp
+L 1_OrangePiR1:H3-BGA3XX_11 U1
+U 8 1 605DBA7B
+P 12675 1225
+F 0 "U1" H 12750 1300 50  0000 C CNN
+F 1 "H3-BGA3XX_11" H 12950 -725 50  0000 C CNN
+F 2 "1_OrangePiR1:H3-BGA3XX_11" H 12725 1275 50  0001 C CNN
+F 3 "" H 12725 1275 50  0001 C CNN
+	8    12675 1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_OrangePiR1:VDD-CPUX #PWR0131
+U 1 1 60619A3B
+P 12125 1325
+F 0 "#PWR0131" H 12125 1175 50  0001 C CNN
+F 1 "VDD-CPUX" H 12125 1452 50  0000 C CNN
+F 2 "" H 12125 1325 50  0001 C CNN
+F 3 "" H 12125 1325 50  0001 C CNN
+	1    12125 1325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12475 2250 12125 2250
+Wire Wire Line
+	12475 1350 12125 1350
+Connection ~ 12125 1350
+Wire Wire Line
+	12125 1350 12125 1325
+Wire Wire Line
+	12475 1425 12125 1425
+Connection ~ 12125 1425
+Wire Wire Line
+	12125 1425 12125 1350
+Wire Wire Line
+	12475 1500 12125 1500
+Connection ~ 12125 1500
+Wire Wire Line
+	12125 1500 12125 1425
+Wire Wire Line
+	12475 1575 12125 1575
+Connection ~ 12125 1575
+Wire Wire Line
+	12125 1575 12125 1500
+Wire Wire Line
+	12475 1650 12125 1650
+Wire Wire Line
+	12125 1575 12125 1650
+Connection ~ 12125 1650
+Wire Wire Line
+	12475 1725 12125 1725
+Wire Wire Line
+	12125 1650 12125 1725
+Connection ~ 12125 1725
+Wire Wire Line
+	12125 1725 12125 1800
+Wire Wire Line
+	12475 1800 12125 1800
+Connection ~ 12125 1800
+Wire Wire Line
+	12125 1800 12125 1875
+Wire Wire Line
+	12125 1875 12475 1875
+Connection ~ 12125 1875
+Wire Wire Line
+	12125 1875 12125 1950
+Wire Wire Line
+	12475 1950 12125 1950
+Connection ~ 12125 1950
+Wire Wire Line
+	12125 1950 12125 2025
+Wire Wire Line
+	12125 2025 12475 2025
+Connection ~ 12125 2025
+Wire Wire Line
+	12125 2025 12125 2100
+Wire Wire Line
+	12475 2100 12125 2100
+Connection ~ 12125 2100
+Wire Wire Line
+	12125 2100 12125 2175
+Wire Wire Line
+	12125 2175 12475 2175
+Connection ~ 12125 2175
+Wire Wire Line
+	12125 2175 12125 2250
+$Comp
+L 1_OrangePiR1:GND #PWR0132
+U 1 1 606D682F
+P 11325 2650
+F 0 "#PWR0132" H 11325 2400 50  0001 C CNN
+F 1 "GND" H 11330 2477 50  0000 C CNN
+F 2 "" H 11325 2650 50  0001 C CNN
+F 3 "" H 11325 2650 50  0001 C CNN
+	1    11325 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11325 2650 11325 2600
+Text GLabel 11775 2375 0    43   Output ~ 0
+VDD-CPUFB
+Wire Wire Line
+	11775 2375 12275 2375
+Wire Wire Line
+	12275 2375 12275 2525
+Wire Wire Line
+	12275 2525 12475 2525
+Text Notes 11250 2425 0    43   ~ 0
+7
+$Comp
+L 1_OrangePiR1:VDD-CPUS #PWR0133
+U 1 1 60709E83
+P 12050 2775
+F 0 "#PWR0133" H 12050 2625 50  0001 C CNN
+F 1 "VDD-CPUS" H 12050 2875 50  0000 C CNN
+F 2 "" H 12050 2775 50  0001 C CNN
+F 3 "" H 12050 2775 50  0001 C CNN
+	1    12050 2775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11325 2600 11475 2600
+Wire Wire Line
+	11775 2600 12475 2600
+Wire Wire Line
+	12050 2775 12050 2850
+Wire Wire Line
+	12050 2850 12250 2850
+Wire Wire Line
+	12475 2775 12250 2775
+Wire Wire Line
+	12250 2775 12250 2850
+Connection ~ 12250 2850
+Wire Wire Line
+	12250 2850 12475 2850
+$Comp
+L 1_OrangePiR1:VCC-IO #PWR0134
+U 1 1 607960CF
+P 14525 2375
+F 0 "#PWR0134" H 14525 2225 50  0001 C CNN
+F 1 "VCC-IO" H 14525 2475 50  0000 C CNN
+F 2 "" H 14525 2375 50  0001 C CNN
+F 3 "" H 14525 2375 50  0001 C CNN
+	1    14525 2375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14200 2500 14525 2500
+Wire Wire Line
+	14525 2500 14525 2425
+Wire Wire Line
+	14200 2800 14525 2800
+Wire Wire Line
+	14525 2800 14525 2725
+Connection ~ 14525 2500
+Wire Wire Line
+	14200 2725 14525 2725
+Connection ~ 14525 2725
+Wire Wire Line
+	14525 2725 14525 2650
+Wire Wire Line
+	14200 2575 14525 2575
+Connection ~ 14525 2575
+Wire Wire Line
+	14525 2575 14525 2500
+Wire Wire Line
+	14200 2650 14525 2650
+Connection ~ 14525 2650
+Wire Wire Line
+	14525 2650 14525 2575
+Wire Wire Line
+	14200 2425 14525 2425
+Wire Wire Line
+	14525 2375 14525 2425
+Connection ~ 14525 2425
+$Comp
+L 1_OrangePiR1:VDD1V2-SYS #PWR0135
+U 1 1 608032BE
+P 14550 1275
+F 0 "#PWR0135" H 14550 1125 50  0001 C CNN
+F 1 "VDD1V2-SYS" H 14550 1402 50  0000 C CNN
+F 2 "" H 14550 1275 50  0001 C CNN
+F 3 "" H 14550 1275 50  0001 C CNN
+	1    14550 1275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14200 1350 14550 1350
+Wire Wire Line
+	14550 1350 14550 1275
+Wire Wire Line
+	14200 2175 14550 2175
+Wire Wire Line
+	14550 2175 14550 2100
+Connection ~ 14550 1350
+Wire Wire Line
+	14200 1425 14550 1425
+Connection ~ 14550 1425
+Wire Wire Line
+	14550 1425 14550 1350
+Wire Wire Line
+	14200 1500 14550 1500
+Connection ~ 14550 1500
+Wire Wire Line
+	14550 1500 14550 1425
+Wire Wire Line
+	14200 1575 14550 1575
+Connection ~ 14550 1575
+Wire Wire Line
+	14550 1575 14550 1500
+Wire Wire Line
+	14200 1650 14550 1650
+Connection ~ 14550 1650
+Wire Wire Line
+	14550 1650 14550 1575
+Wire Wire Line
+	14200 1725 14550 1725
+Connection ~ 14550 1725
+Wire Wire Line
+	14550 1725 14550 1650
+Wire Wire Line
+	14200 1800 14550 1800
+Connection ~ 14550 1800
+Wire Wire Line
+	14550 1800 14550 1725
+Wire Wire Line
+	14200 1875 14550 1875
+Connection ~ 14550 1875
+Wire Wire Line
+	14550 1875 14550 1800
+Wire Wire Line
+	14200 1950 14550 1950
+Connection ~ 14550 1950
+Wire Wire Line
+	14550 1950 14550 1875
+Wire Wire Line
+	14200 2025 14550 2025
+Connection ~ 14550 2025
+Wire Wire Line
+	14550 2025 14550 1950
+Wire Wire Line
+	14200 2100 14550 2100
+Connection ~ 14550 2100
+Wire Wire Line
+	14550 2100 14550 2025
+$Comp
+L 1_OrangePiR1:H3-BGA3XX_11 U1
+U 7 1 6094E5C8
+P 12350 4325
+F 0 "U1" H 12425 4400 50  0000 C CNN
+F 1 "H3-BGA3XX_11" H 12625 2325 50  0000 C CNN
+F 2 "1_OrangePiR1:H3-BGA3XX_11" H 12400 4375 50  0001 C CNN
+F 3 "" H 12400 4375 50  0001 C CNN
+	7    12350 4325
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_OrangePiR1:CAP0402 C1
+U 1 1 60987543
+P 11650 4700
+F 0 "C1" V 11600 4550 50  0000 C CNN
+F 1 "CAP0402" H 11650 4900 50  0001 C CNN
+F 2 "1_OrangePiR1:CAP0402" H 11500 4800 50  0001 C CNN
+F 3 "" H 11500 4800 50  0001 C CNN
+F 4 "0.1uF" V 11525 4725 50  0000 C CNN "Capacitance"
+F 5 "50V" H 11820 4680 50  0001 C CNN "Voltage"
+F 6 "0402" V 11600 4900 50  0000 C CNN "Package"
+	1    11650 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11775 4700 12025 4700
+$Comp
+L 1_OrangePiR1:GND #PWR0136
+U 1 1 609C1C64
+P 11300 4750
+F 0 "#PWR0136" H 11300 4500 50  0001 C CNN
+F 1 "GND" H 11305 4577 50  0000 C CNN
+F 2 "" H 11300 4750 50  0001 C CNN
+F 3 "" H 11300 4750 50  0001 C CNN
+	1    11300 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11300 4750 11300 4700
+Wire Wire Line
+	11300 4700 11525 4700
+$Comp
+L 1_OrangePiR1:VCC3V3-USB #PWR0137
+U 1 1 609D633C
+P 12025 4475
+F 0 "#PWR0137" H 12025 4325 50  0001 C CNN
+F 1 "VCC3V3-USB" H 12025 4602 50  0000 C CNN
+F 2 "" H 12025 4475 50  0001 C CNN
+F 3 "" H 12025 4475 50  0001 C CNN
+	1    12025 4475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12025 4475 12025 4700
+Connection ~ 12025 4700
+Wire Wire Line
+	12025 4700 12150 4700
+Wire Wire Line
+	12150 5050 11925 5050
+Wire Wire Line
+	11925 5125 12150 5125
+Wire Wire Line
+	12150 5400 11925 5400
+Wire Wire Line
+	11925 5475 12150 5475
+Wire Wire Line
+	12150 5650 11925 5650
+Wire Wire Line
+	11925 5725 12150 5725
+Wire Wire Line
+	12150 5900 11925 5900
+Wire Wire Line
+	11925 5975 12150 5975
+Text GLabel 11925 5050 0    43   Output ~ 0
+USB0_D-
+Text GLabel 11925 5125 0    43   Output ~ 0
+USB0_D+
+Text GLabel 11925 5400 0    43   Output ~ 0
+USB1_D-
+Text GLabel 11925 5475 0    43   Output ~ 0
+USB1_D+
+Text GLabel 11925 5650 0    43   Output ~ 0
+USB2_D-
+Text GLabel 11925 5725 0    43   Output ~ 0
+USB2_D+
+Text GLabel 11925 5900 0    43   Output ~ 0
+USB3_D-
+Text GLabel 11925 5975 0    43   Output ~ 0
+USB3_D+
+Text Notes 10650 5525 0    43   ~ 0
+Modifiy net names\nfor diff pair
+Text Notes 11500 5075 0    43   ~ 0
+9
+Text Notes 11500 5150 0    43   ~ 0
+9
+Text Notes 11425 5425 0    43   ~ 0
+11
+Text Notes 11425 5500 0    43   ~ 0
+11
+Text Notes 11425 5675 0    43   ~ 0
+13
+Text Notes 11425 5750 0    43   ~ 0
+13
+Text Notes 11425 5925 0    43   ~ 0
+13
+Text Notes 11425 6000 0    43   ~ 0
+13
+Wire Wire Line
+	13925 4475 14500 4475
+Text Label 14050 4475 0    50   ~ 0
+JTAG-SEL0
+Wire Wire Line
+	13925 4550 14500 4550
+NoConn ~ 13925 4625
+NoConn ~ 13925 5175
+NoConn ~ 13925 5325
+NoConn ~ 13925 5900
+Text Label 14050 4550 0    50   ~ 0
+JTAG-SEL1
+Wire Wire Line
+	13925 4775 14500 4775
+Wire Wire Line
+	13925 5400 14500 5400
+Wire Wire Line
+	13925 5475 14500 5475
+Wire Wire Line
+	13925 5975 14500 5975
+Wire Wire Line
+	13925 6050 14500 6050
+Text Label 14050 4775 0    50   ~ 0
+AP-RESET#
+Text Label 14075 5400 0    50   ~ 0
+X24MO
+Text Label 14075 5475 0    50   ~ 0
+X24MI
+Text Label 14075 5975 0    50   ~ 0
+X32KO
+Text Label 14075 6050 0    50   ~ 0
+X32KI
+Wire Wire Line
+	13925 4400 14600 4400
+Text GLabel 14600 4400 2    43   Output ~ 0
+UBOOT
+Text Notes 14875 4425 0    43   ~ 0
+13
+$Comp
+L 1_OrangePiR1:RES402 R1
+U 1 1 606A9B2F
+P 11625 2600
+F 0 "R1" V 11550 2425 50  0000 C CNN
+F 1 "RES402" V 11550 2600 50  0001 C CNN
+F 2 "1_OrangePiR1:RES0402" V 11555 2600 50  0001 C CNN
+F 3 "" H 11625 2600 50  0001 C CNN
+F 4 "0Ω" V 11550 2800 50  0000 C CNN "Resistance"
+F 5 "0402" V 11550 2600 50  0000 C CNN "Package"
+F 6 "1%" V 11375 2600 50  0001 C CNN "Tolerance"
+	1    11625 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L 1_OrangePiR1:RES402 R2
+U 1 1 60B52048
+P 14750 4700
+F 0 "R2" V 14675 4525 50  0000 C CNN
+F 1 "RES402" V 14675 4700 50  0001 C CNN
+F 2 "1_OrangePiR1:RES0402" V 14680 4700 50  0001 C CNN
+F 3 "" H 14750 4700 50  0001 C CNN
+F 4 "47KΩ" V 14675 4950 50  0000 C CNN "Resistance"
+F 5 "0402" V 14675 4700 50  0000 C CNN "Package"
+F 6 "1%" V 14500 4700 50  0001 C CNN "Tolerance"
+	1    14750 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13925 4700 14600 4700
+$Comp
+L 1_OrangePiR1:VCC-RTC #PWR0138
+U 1 1 60B9EC1E
+P 15200 4600
+F 0 "#PWR0138" H 15200 4450 50  0001 C CNN
+F 1 "VCC-RTC" H 15200 4700 50  0000 C CNN
+F 2 "" H 15200 4600 50  0001 C CNN
+F 3 "" H 15200 4600 50  0001 C CNN
+	1    15200 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14900 4700 15200 4700
+Wire Wire Line
+	15200 4700 15200 4600
+$Comp
+L 1_OrangePiR1:RES402 R3
+U 1 1 60BF1711
+P 14750 4950
+F 0 "R3" V 14675 4775 50  0000 C CNN
+F 1 "RES402" V 14675 4950 50  0001 C CNN
+F 2 "1_OrangePiR1:RES0402" V 14680 4950 50  0001 C CNN
+F 3 "" H 14750 4950 50  0001 C CNN
+F 4 "100KΩ" V 14675 5225 50  0000 C CNN "Resistance"
+F 5 "0402" V 14675 4950 50  0000 C CNN "Package"
+F 6 "1%" V 14500 4950 50  0001 C CNN "Tolerance"
+	1    14750 4950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14600 4950 13925 4950
+$Comp
+L 1_OrangePiR1:AVCC #PWR0139
+U 1 1 60C1A4EB
+P 15350 4875
+F 0 "#PWR0139" H 15350 4725 50  0001 C CNN
+F 1 "AVCC" H 15350 4975 50  0000 C CNN
+F 2 "" H 15350 4875 50  0001 C CNN
+F 3 "" H 15350 4875 50  0001 C CNN
+	1    15350 4875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14900 4950 15350 4950
+Wire Wire Line
+	15350 4950 15350 4875
+$Comp
+L 1_OrangePiR1:VCC3V3-EFUSE #PWR0140
+U 1 1 60C326F1
+P 14950 5025
+F 0 "#PWR0140" H 14950 4875 50  0001 C CNN
+F 1 "VCC3V3-EFUSE" V 14950 5105 50  0000 L CNN
+F 2 "" H 14950 5025 50  0001 C CNN
+F 3 "" H 14950 5025 50  0001 C CNN
+	1    14950 5025
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14950 5025 13925 5025
+$Comp
+L 1_OrangePiR1:CAP0402 C3
+U 1 1 60C4717D
+P 14650 5125
+F 0 "C3" V 14600 4975 50  0000 C CNN
+F 1 "CAP0402" H 14650 5325 50  0001 C CNN
+F 2 "1_OrangePiR1:CAP0402" H 14500 5225 50  0001 C CNN
+F 3 "" H 14500 5225 50  0001 C CNN
+F 4 "4.7uF" V 14600 5275 50  0000 C CNN "Capacitance"
+F 5 "50V" H 14820 5105 50  0001 C CNN "Voltage"
+F 6 "0402" V 14700 4950 50  0000 C CNN "Package"
+	1    14650 5125
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13925 5100 14350 5100
+Wire Wire Line
+	14350 5100 14350 5125
+Wire Wire Line
+	14350 5125 14525 5125
+$Comp
+L 1_OrangePiR1:GND #PWR0141
+U 1 1 60C5EEB9
+P 15075 5125
+F 0 "#PWR0141" H 15075 4875 50  0001 C CNN
+F 1 "GND" V 15080 4997 50  0000 R CNN
+F 2 "" H 15075 5125 50  0001 C CNN
+F 3 "" H 15075 5125 50  0001 C CNN
+	1    15075 5125
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	14775 5125 15075 5125
+$Comp
+L 1_OrangePiR1:CAP0402 C4
+U 1 1 60C885FB
+P 15075 5550
+F 0 "C4" H 15150 5650 50  0000 C CNN
+F 1 "CAP0402" H 15075 5750 50  0001 C CNN
+F 2 "1_OrangePiR1:CAP0402" H 14925 5650 50  0001 C CNN
+F 3 "" H 14925 5650 50  0001 C CNN
+F 4 "0.1uF" H 15200 5475 50  0000 C CNN "Capacitance"
+F 5 "50V" H 15245 5530 50  0001 C CNN "Voltage"
+F 6 "0402" H 15200 5400 50  0000 C CNN "Package"
+	1    15075 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_OrangePiR1:GND #PWR0142
+U 1 1 60CFBFE0
+P 15075 5700
+F 0 "#PWR0142" H 15075 5450 50  0001 C CNN
+F 1 "GND" H 15080 5527 50  0000 C CNN
+F 2 "" H 15075 5700 50  0001 C CNN
+F 3 "" H 15075 5700 50  0001 C CNN
+	1    15075 5700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15075 5700 15075 5675
+$Comp
+L 1_OrangePiR1:VCC3V-PLL #PWR0143
+U 1 1 60D133C7
+P 15075 5250
+F 0 "#PWR0143" H 15075 5100 50  0001 C CNN
+F 1 "VCC3V-PLL" V 15075 5330 50  0000 L CNN
+F 2 "" H 15075 5250 50  0001 C CNN
+F 3 "" H 15075 5250 50  0001 C CNN
+	1    15075 5250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14950 5250 15075 5250
+Connection ~ 14950 5250
+$Comp
+L 1_OrangePiR1:CAP0402 C5
+U 1 1 60D50FF5
+P 14725 5750
+F 0 "C5" V 14675 5600 50  0000 C CNN
+F 1 "CAP0402" H 14725 5950 50  0001 C CNN
+F 2 "1_OrangePiR1:CAP0402" H 14575 5850 50  0001 C CNN
+F 3 "" H 14575 5850 50  0001 C CNN
+F 4 "4.7uF" V 14675 5900 50  0000 C CNN "Capacitance"
+F 5 "50V" H 14895 5730 50  0001 C CNN "Voltage"
+F 6 "0402" V 14775 5575 50  0000 C CNN "Package"
+	1    14725 5750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13925 5250 14950 5250
+$Comp
+L 1_OrangePiR1:GND #PWR0144
+U 1 1 60D7DB53
+P 14925 5825
+F 0 "#PWR0144" H 14925 5575 50  0001 C CNN
+F 1 "GND" H 14930 5652 50  0000 C CNN
+F 2 "" H 14925 5825 50  0001 C CNN
+F 3 "" H 14925 5825 50  0001 C CNN
+	1    14925 5825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14850 5750 14925 5750
+Wire Wire Line
+	14925 5750 14925 5825
+$Comp
+L 1_OrangePiR1:VCC-RTC #PWR0145
+U 1 1 60D3C358
+P 14075 5650
+F 0 "#PWR0145" H 14075 5500 50  0001 C CNN
+F 1 "VCC-RTC" H 14025 5750 50  0000 C CNN
+F 2 "" H 14075 5650 50  0001 C CNN
+F 3 "" H 14075 5650 50  0001 C CNN
+	1    14075 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13925 5675 14075 5675
+Wire Wire Line
+	14075 5675 14075 5650
+$Comp
+L 1_OrangePiR1:VDD-CPUS #PWR0146
+U 1 1 60E150EF
+P 14475 5675
+F 0 "#PWR0146" H 14475 5525 50  0001 C CNN
+F 1 "VDD-CPUS" H 14475 5802 50  0000 C CNN
+F 2 "" H 14475 5675 50  0001 C CNN
+F 3 "" H 14475 5675 50  0001 C CNN
+	1    14475 5675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13925 5750 14475 5750
+Connection ~ 14475 5750
+Wire Wire Line
+	14475 5750 14600 5750
+Wire Wire Line
+	14475 5675 14475 5750
+Wire Wire Line
+	15075 5425 15075 5375
+Wire Wire Line
+	15075 5375 14950 5375
+Wire Wire Line
+	14950 5250 14950 5375
+$Comp
+L 1_OrangePiR1:H3-BGA3XX_11 U1
+U 5 1 60F0D490
+P 12250 7150
+F 0 "U1" H 12350 7225 50  0000 C CNN
+F 1 "H3-BGA3XX_11" H 12550 5925 50  0000 C CNN
+F 2 "1_OrangePiR1:H3-BGA3XX_11" H 12300 7200 50  0001 C CNN
+F 3 "" H 12300 7200 50  0001 C CNN
+	5    12250 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14075 7300 14400 7300
+Wire Wire Line
+	14400 7375 14075 7375
+Wire Wire Line
+	14400 7450 14075 7450
+Wire Wire Line
+	14400 7525 14075 7525
+Wire Wire Line
+	14075 7600 14400 7600
+Wire Wire Line
+	14400 7675 14075 7675
+Wire Wire Line
+	14400 7750 14075 7750
+Wire Wire Line
+	14400 7825 14075 7825
+Wire Wire Line
+	14075 7900 14400 7900
+Wire Wire Line
+	14400 7975 14075 7975
+Wire Wire Line
+	14400 8050 14075 8050
+Wire Wire Line
+	14400 8125 14075 8125
+Text GLabel 14400 7300 2    43   Output ~ 0
+S-TWI-SCK
+Text GLabel 14400 7375 2    43   Output ~ 0
+S-TWI-SDA
+Text GLabel 14400 7450 2    43   Output ~ 0
+USB0-DRVVBUS
+Text GLabel 14400 7525 2    43   Output ~ 0
+PWR-KEY
+Text GLabel 14400 7600 2    43   Output ~ 0
+RECOVERY
+Text GLabel 14400 7675 2    43   Output ~ 0
+VCC-IO-EN
+Text GLabel 14400 7750 2    43   Output ~ 0
+CPUX-VSET
+Text GLabel 14400 7825 2    43   Output ~ 0
+WL-PMU-EN
+Text GLabel 14400 7900 2    43   Output ~ 0
+PWR-STB-EN
+Text GLabel 14400 7975 2    43   Output ~ 0
+PWR-DRAM-EN
+Text GLabel 14400 8050 2    43   Output ~ 0
+PWR-LED
+Text GLabel 14400 8125 2    43   Output ~ 0
+IR-RX
+Text Notes 14850 7625 0    43   ~ 0
+13
+Text Notes 14825 8100 0    43   ~ 0
+13
+Text Notes 14825 8175 0    43   ~ 0
+13
+Text Notes 14900 7850 0    43   ~ 0
+12
+Text Notes 14975 7925 0    43   ~ 0
+7
+Text Notes 14975 8000 0    43   ~ 0
+7
+Text Notes 14875 7775 0    43   ~ 0
+7
+Text Notes 14875 7700 0    43   ~ 0
+7
+Text Notes 14875 7550 0    43   ~ 0
+6
+Text Notes 14025 8975 2    100  ~ 20
+PWRON/WORK
+Text Notes 14850 8975 2    100  ~ 20
+STANDBY
+Text Notes 15600 8975 2    100  ~ 20
+PWROFF
+Text Notes 12725 9300 2    100  ~ 20
+PWR-STB
+Text Notes 12850 9600 2    100  ~ 20
+PWR-DRAM
+Wire Notes Line width 12 style solid
+	11925 9725 15750 9725
+Wire Notes Line width 12 style solid
+	15750 9725 15750 8725
+Wire Notes Line width 12 style solid
+	15750 8725 11925 8725
+Wire Notes Line width 12 style solid
+	11925 8725 11925 9725
+Wire Notes Line width 12 style solid
+	15750 9050 11925 9050
+Wire Notes Line width 12 style solid
+	15750 9375 11925 9375
+Wire Notes Line width 12 style solid
+	12900 8725 12900 9725
+Wire Notes Line width 12 style solid
+	14100 8725 14100 9725
+Wire Notes Line width 12 style solid
+	14925 8725 14925 9725
+Text Notes 13575 9300 2    100  ~ 20
+1
+Text Notes 13575 9625 2    100  ~ 20
+1
+Text Notes 14600 9625 2    100  ~ 20
+1
+Text Notes 14600 9300 2    100  ~ 20
+0
+Text Notes 15400 9300 2    100  ~ 20
+0
+Text Notes 15400 9625 2    100  ~ 20
+0
+$Comp
+L 1_OrangePiR1:RES402 R16
+U 1 1 610FE135
+P 8550 6725
+F 0 "R16" H 8425 6600 50  0000 C CNN
+F 1 "RES402" V 8475 6725 50  0001 C CNN
+F 2 "1_OrangePiR1:RES0402" V 8480 6725 50  0001 C CNN
+F 3 "" H 8550 6725 50  0001 C CNN
+F 4 "47KΩ" H 8375 6725 50  0000 C CNN "Resistance"
+F 5 "0402" H 8375 6825 50  0000 C CNN "Package"
+F 6 "1%" V 8300 6725 50  0001 C CNN "Tolerance"
+	1    8550 6725
+	-1   0    0    1   
+$EndComp
+$Comp
+L 1_OrangePiR1:VCC-RTC #PWR0147
+U 1 1 6116C5C9
+P 8550 6450
+F 0 "#PWR0147" H 8550 6300 50  0001 C CNN
+F 1 "VCC-RTC" H 8550 6577 50  0000 C CNN
+F 2 "" H 8550 6450 50  0001 C CNN
+F 3 "" H 8550 6450 50  0001 C CNN
+	1    8550 6450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 6450 8550 6575
+Wire Wire Line
+	8550 6875 8550 7000
+Wire Wire Line
+	8550 7000 9350 7000
+Text GLabel 9350 7000 2    50   Output ~ 0
+PWR-KEY
+Text Notes 9800 7025 0    43   ~ 0
+6
+$Comp
+L 1_OrangePiR1:TSX-3225 X2
+U 1 1 611E33A3
+P 1625 9950
+F 0 "X2" H 1675 10100 50  0000 C CNN
+F 1 "TSX-3225" H 1800 9625 50  0000 C CNN
+F 2 "1_OrangePiR1:TSX-3225" H 1625 10075 50  0001 C CNN
+F 3 "" H 1625 10075 50  0001 C CNN
+F 4 "24MHz/JWT24" H 1875 9700 50  0000 C CNN "Frequency"
+	1    1625 9950
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_OrangePiR1:GND #PWR0148
+U 1 1 611FA31C
+P 1375 10075
+F 0 "#PWR0148" H 1375 9825 50  0001 C CNN
+F 1 "GND" H 1380 9902 50  0000 C CNN
+F 2 "" H 1375 10075 50  0001 C CNN
+F 3 "" H 1375 10075 50  0001 C CNN
+	1    1375 10075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1525 10050 1375 10050
+Wire Wire Line
+	1375 10050 1375 10075
+$Comp
+L 1_OrangePiR1:GND #PWR0149
+U 1 1 6122926A
+P 2450 9950
+F 0 "#PWR0149" H 2450 9700 50  0001 C CNN
+F 1 "GND" H 2455 9777 50  0000 C CNN
+F 2 "" H 2450 9950 50  0001 C CNN
+F 3 "" H 2450 9950 50  0001 C CNN
+	1    2450 9950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2450 9950 2225 9950
+Wire Wire Line
+	1525 9950 1300 9950
+Wire Wire Line
+	2275 10400 2275 10050
+Wire Wire Line
+	2275 10050 2225 10050
+$Comp
+L 1_OrangePiR1:CAP0402 C37
+U 1 1 612758F1
+P 2550 10400
+F 0 "C37" V 2500 10200 50  0000 L CNN
+F 1 "CAP0402" H 2550 10600 50  0001 C CNN
+F 2 "1_OrangePiR1:CAP0402" H 2400 10500 50  0001 C CNN
+F 3 "" H 2400 10500 50  0001 C CNN
+F 4 "18pF" V 2500 10475 50  0000 L CNN "Capacitance"
+F 5 "50V" H 2720 10380 50  0001 C CNN "Voltage"
+F 6 "0402" V 2650 10300 50  0000 L CNN "Package"
+	1    2550 10400
+	0    1    1    0   
+$EndComp
+$Comp
+L 1_OrangePiR1:CAP0402 C29
+U 1 1 6128EDB9
+P 2525 9750
+F 0 "C29" V 2475 9550 50  0000 L CNN
+F 1 "CAP0402" H 2525 9950 50  0001 C CNN
+F 2 "1_OrangePiR1:CAP0402" H 2375 9850 50  0001 C CNN
+F 3 "" H 2375 9850 50  0001 C CNN
+F 4 "18pF" V 2475 9825 50  0000 L CNN "Capacitance"
+F 5 "50V" H 2695 9730 50  0001 C CNN "Voltage"
+F 6 "0402" V 2625 9650 50  0000 L CNN "Package"
+	1    2525 9750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2425 10400 2275 10400
+Connection ~ 2275 10400
+Wire Wire Line
+	2675 10400 2850 10400
+Wire Wire Line
+	2850 10400 2850 9750
+Wire Wire Line
+	2850 9750 2650 9750
+$Comp
+L 1_OrangePiR1:GND #PWR0150
+U 1 1 612DCC57
+P 2850 10450
+F 0 "#PWR0150" H 2850 10200 50  0001 C CNN
+F 1 "GND" H 2855 10277 50  0000 C CNN
+F 2 "" H 2850 10450 50  0001 C CNN
+F 3 "" H 2850 10450 50  0001 C CNN
+	1    2850 10450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 10450 2850 10400
+Connection ~ 2850 10400
+Wire Wire Line
+	2400 9750 1300 9750
+Wire Wire Line
+	1300 9750 1300 9950
+Wire Wire Line
+	975  10400 2275 10400
+Wire Wire Line
+	1300 9750 975  9750
+Connection ~ 1300 9750
+Text Label 1225 9750 2    43   ~ 0
+X24MI
+Text Label 1225 10400 2    43   ~ 0
+X24MO
+Wire Wire Line
+	2325 9425 1925 9425
+Text GLabel 1925 9425 0    43   Output ~ 0
+X24MO
+Text GLabel 1900 9250 0    43   Output ~ 0
+X24MI
+Wire Wire Line
+	1900 9250 2325 9250
+Text Label 2000 9250 0    50   ~ 0
+X24MI
+Text Label 2000 9425 0    50   ~ 0
+X24MO
+Text Notes 950  9525 0    50   ~ 0
+CLK
+Text Notes 850  8600 0    50   ~ 0
+OSC-RTC
+Wire Notes Line width 12
+	800  10725 800  8450
+Wire Notes Line width 12
+	800  8450 3025 8450
+Wire Notes Line width 12
+	3025 8450 3025 10725
+Wire Notes Line width 12
+	800  10725 3025 10725
+Wire Notes Line width 12
+	800  8975 3025 8975
+$Comp
+L 1_OrangePiR1:CAP0402 C12
+U 1 1 6153C3A6
+P 3750 9000
+F 0 "C12" H 3775 9100 50  0000 L CNN
+F 1 "CAP0402" H 3750 9200 50  0001 C CNN
+F 2 "1_OrangePiR1:CAP0402" H 3600 9100 50  0001 C CNN
+F 3 "" H 3600 9100 50  0001 C CNN
+F 4 "1uF" H 3775 8900 50  0000 L CNN "Capacitance"
+F 5 "50V" H 3920 8980 50  0001 C CNN "Voltage"
+F 6 "0402" H 3775 8825 50  0000 L CNN "Package"
+	1    3750 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_OrangePiR1:VDD-CPUS #PWR0151
+U 1 1 61558882
+P 3750 8800
+F 0 "#PWR0151" H 3750 8650 50  0001 C CNN
+F 1 "VDD-CPUS" H 3750 8927 50  0000 C CNN
+F 2 "" H 3750 8800 50  0001 C CNN
+F 3 "" H 3750 8800 50  0001 C CNN
+	1    3750 8800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 8800 3750 8875
+$Comp
+L 1_OrangePiR1:GND #PWR0152
+U 1 1 61574CE4
+P 3750 9275
+F 0 "#PWR0152" H 3750 9025 50  0001 C CNN
+F 1 "GND" H 3755 9102 50  0000 C CNN
+F 2 "" H 3750 9275 50  0001 C CNN
+F 3 "" H 3750 9275 50  0001 C CNN
+	1    3750 9275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3750 9275 3750 9125
+$Comp
+L 1_OrangePiR1:CAP0402 C14
+U 1 1 615925DD
+P 4350 9000
+F 0 "C14" H 4375 9100 50  0000 L CNN
+F 1 "CAP0402" H 4350 9200 50  0001 C CNN
+F 2 "1_OrangePiR1:CAP0402" H 4200 9100 50  0001 C CNN
+F 3 "" H 4200 9100 50  0001 C CNN
+F 4 "1uF" H 4375 8900 50  0000 L CNN "Capacitance"
+F 5 "50V" H 4520 8980 50  0001 C CNN "Voltage"
+F 6 "0402" H 4375 8825 50  0000 L CNN "Package"
+	1    4350 9000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 8800 4350 8825
+$Comp
+L 1_OrangePiR1:GND #PWR0153
+U 1 1 615925E4
+P 4350 9300
+F 0 "#PWR0153" H 4350 9050 50  0001 C CNN
+F 1 "GND" H 4355 9127 50  0000 C CNN
+F 2 "" H 4350 9300 50  0001 C CNN
+F 3 "" H 4350 9300 50  0001 C CNN
+	1    4350 9300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 9300 4350 9250
+$Comp
+L 1_OrangePiR1:VCC-IO #PWR0154
+U 1 1 615E41E2
+P 4350 8800
+F 0 "#PWR0154" H 4350 8650 50  0001 C CNN
+F 1 "VCC-IO" H 4353 8927 50  0000 C CNN
+F 2 "" H 4350 8800 50  0001 C CNN
+F 3 "" H 4350 8800 50  0001 C CNN
+	1    4350 8800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_OrangePiR1:CAP0402 C15
+U 1 1 615E46B7
+P 4575 9000
+F 0 "C15" H 4600 9100 50  0000 L CNN
+F 1 "CAP0402" H 4575 9200 50  0001 C CNN
+F 2 "1_OrangePiR1:CAP0402" H 4425 9100 50  0001 C CNN
+F 3 "" H 4425 9100 50  0001 C CNN
+F 4 "0.1uF" H 4600 8900 50  0000 L CNN "Capacitance"
+F 5 "50V" H 4745 8980 50  0001 C CNN "Voltage"
+F 6 "0402" H 4600 8825 50  0000 L CNN "Package"
+	1    4575 9000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4575 8875 4575 8825
+Wire Wire Line
+	4575 8825 4350 8825
+Connection ~ 4350 8825
+Wire Wire Line
+	4350 8825 4350 8875
+Wire Wire Line
+	4350 9250 4575 9250
+Wire Wire Line
+	4575 9250 4575 9125
+Connection ~ 4350 9250
+Wire Wire Line
+	4350 9250 4350 9125
+$Comp
+L 1_OrangePiR1:CAP0603 C16
+U 1 1 6161FC72
+P 5075 9000
+F 0 "C16" H 5100 9100 50  0000 L CNN
+F 1 "CAP0603" H 5075 9200 50  0001 C CNN
+F 2 "1_OrangePiR1:CAP0603" H 4925 9100 50  0001 C CNN
+F 3 "" H 4925 9100 50  0001 C CNN
+F 4 "10uF" H 5100 8925 50  0000 L CNN "Capacitance"
+F 5 "50V" H 5245 8980 50  0001 C CNN "Voltage"
+F 6 "0603" H 5100 8850 50  0000 L CNN "Package"
+	1    5075 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_OrangePiR1:VDD-CPUX #PWR0155
+U 1 1 616235F7
+P 5075 8800
+F 0 "#PWR0155" H 5075 8650 50  0001 C CNN
+F 1 "VDD-CPUX" H 5075 8927 50  0000 C CNN
+F 2 "" H 5075 8800 50  0001 C CNN
+F 3 "" H 5075 8800 50  0001 C CNN
+	1    5075 8800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5075 8800 5075 8825
+$Comp
+L 1_OrangePiR1:CAP0402 C17
+U 1 1 61641025
+P 5325 9000
+F 0 "C17" H 5350 9100 50  0000 L CNN
+F 1 "CAP0402" H 5325 9200 50  0001 C CNN
+F 2 "1_OrangePiR1:CAP0402" H 5175 9100 50  0001 C CNN
+F 3 "" H 5175 9100 50  0001 C CNN
+F 4 "1uF" H 5350 8925 50  0000 L CNN "Capacitance"
+F 5 "50V" H 5495 8980 50  0001 C CNN "Voltage"
+F 6 "0402" H 5350 8850 50  0000 L CNN "Package"
+	1    5325 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_OrangePiR1:CAP0402 C18
+U 1 1 616436CA
+P 5550 9000
+F 0 "C18" H 5575 9100 50  0000 L CNN
+F 1 "CAP0402" H 5550 9200 50  0001 C CNN
+F 2 "1_OrangePiR1:CAP0402" H 5400 9100 50  0001 C CNN
+F 3 "" H 5400 9100 50  0001 C CNN
+F 4 "1uF" H 5575 8925 50  0000 L CNN "Capacitance"
+F 5 "50V" H 5720 8980 50  0001 C CNN "Voltage"
+F 6 "0402" H 5575 8850 50  0000 L CNN "Package"
+	1    5550 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_OrangePiR1:CAP0402 C19
+U 1 1 61643DBB
+P 5775 9000
+F 0 "C19" H 5800 9100 50  0000 L CNN
+F 1 "CAP0402" H 5775 9200 50  0001 C CNN
+F 2 "1_OrangePiR1:CAP0402" H 5625 9100 50  0001 C CNN
+F 3 "" H 5625 9100 50  0001 C CNN
+F 4 "0.1uF" H 5800 8925 50  0000 L CNN "Capacitance"
+F 5 "50V" H 5945 8980 50  0001 C CNN "Voltage"
+F 6 "0402" H 5800 8850 50  0000 L CNN "Package"
+	1    5775 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_OrangePiR1:CAP0402 C20
+U 1 1 616473BC
+P 6025 9000
+F 0 "C20" H 6050 9100 50  0000 L CNN
+F 1 "CAP0402" H 6025 9200 50  0001 C CNN
+F 2 "1_OrangePiR1:CAP0402" H 5875 9100 50  0001 C CNN
+F 3 "" H 5875 9100 50  0001 C CNN
+F 4 "0.1uF" H 6050 8925 50  0000 L CNN "Capacitance"
+F 5 "50V" H 6195 8980 50  0001 C CNN "Voltage"
+F 6 "0402" H 6050 8850 50  0000 L CNN "Package"
+	1    6025 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_OrangePiR1:GND #PWR0156
+U 1 1 616666FF
+P 6025 9300
+F 0 "#PWR0156" H 6025 9050 50  0001 C CNN
+F 1 "GND" H 6030 9127 50  0000 C CNN
+F 2 "" H 6025 9300 50  0001 C CNN
+F 3 "" H 6025 9300 50  0001 C CNN
+	1    6025 9300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6025 9300 6025 9250
+Wire Wire Line
+	6025 9250 5775 9250
+Wire Wire Line
+	5075 9250 5075 9125
+Connection ~ 6025 9250
+Wire Wire Line
+	6025 9250 6025 9125
+Wire Wire Line
+	5325 9125 5325 9250
+Connection ~ 5325 9250
+Wire Wire Line
+	5325 9250 5075 9250
+Connection ~ 5550 9250
+Wire Wire Line
+	5550 9250 5325 9250
+Wire Wire Line
+	5550 9125 5550 9250
+Wire Wire Line
+	5775 9125 5775 9250
+Connection ~ 5775 9250
+Wire Wire Line
+	5775 9250 5550 9250
+Wire Wire Line
+	5075 8825 5325 8825
+Wire Wire Line
+	6025 8825 6025 8875
+Connection ~ 5075 8825
+Wire Wire Line
+	5075 8825 5075 8875
+Wire Wire Line
+	5775 8875 5775 8825
+Connection ~ 5775 8825
+Wire Wire Line
+	5775 8825 6025 8825
+Wire Wire Line
+	5550 8875 5550 8825
+Connection ~ 5550 8825
+Wire Wire Line
+	5550 8825 5775 8825
+Wire Wire Line
+	5325 8875 5325 8825
+Connection ~ 5325 8825
+Wire Wire Line
+	5325 8825 5550 8825
+$Comp
+L 1_OrangePiR1:CAP0603 C21
+U 1 1 6179E316
+P 6650 9000
+F 0 "C21" H 6675 9100 50  0000 L CNN
+F 1 "CAP0603" H 6650 9200 50  0001 C CNN
+F 2 "1_OrangePiR1:CAP0603" H 6500 9100 50  0001 C CNN
+F 3 "" H 6500 9100 50  0001 C CNN
+F 4 "10uF" H 6675 8925 50  0000 L CNN "Capacitance"
+F 5 "50V" H 6820 8980 50  0001 C CNN "Voltage"
+F 6 "0603" H 6675 8850 50  0000 L CNN "Package"
+	1    6650 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_OrangePiR1:CAP0402 C23
+U 1 1 6179E326
+P 6900 9000
+F 0 "C23" H 6925 9100 50  0000 L CNN
+F 1 "CAP0402" H 6900 9200 50  0001 C CNN
+F 2 "1_OrangePiR1:CAP0402" H 6750 9100 50  0001 C CNN
+F 3 "" H 6750 9100 50  0001 C CNN
+F 4 "1uF" H 6925 8925 50  0000 L CNN "Capacitance"
+F 5 "50V" H 7070 8980 50  0001 C CNN "Voltage"
+F 6 "0402" H 6925 8850 50  0000 L CNN "Package"
+	1    6900 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_OrangePiR1:CAP0402 C24
+U 1 1 6179E32F
+P 7125 9000
+F 0 "C24" H 7150 9100 50  0000 L CNN
+F 1 "CAP0402" H 7125 9200 50  0001 C CNN
+F 2 "1_OrangePiR1:CAP0402" H 6975 9100 50  0001 C CNN
+F 3 "" H 6975 9100 50  0001 C CNN
+F 4 "1uF" H 7150 8925 50  0000 L CNN "Capacitance"
+F 5 "50V" H 7295 8980 50  0001 C CNN "Voltage"
+F 6 "0402" H 7150 8850 50  0000 L CNN "Package"
+	1    7125 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_OrangePiR1:CAP0402 C25
+U 1 1 6179E338
+P 7350 9000
+F 0 "C25" H 7375 9100 50  0000 L CNN
+F 1 "CAP0402" H 7350 9200 50  0001 C CNN
+F 2 "1_OrangePiR1:CAP0402" H 7200 9100 50  0001 C CNN
+F 3 "" H 7200 9100 50  0001 C CNN
+F 4 "0.1uF" H 7375 8925 50  0000 L CNN "Capacitance"
+F 5 "50V" H 7520 8980 50  0001 C CNN "Voltage"
+F 6 "0402" H 7375 8850 50  0000 L CNN "Package"
+	1    7350 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_OrangePiR1:CAP0402 C26
+U 1 1 6179E341
+P 7600 9000
+F 0 "C26" H 7625 9100 50  0000 L CNN
+F 1 "CAP0402" H 7600 9200 50  0001 C CNN
+F 2 "1_OrangePiR1:CAP0402" H 7450 9100 50  0001 C CNN
+F 3 "" H 7450 9100 50  0001 C CNN
+F 4 "0.1uF" H 7625 8925 50  0000 L CNN "Capacitance"
+F 5 "50V" H 7770 8980 50  0001 C CNN "Voltage"
+F 6 "0402" H 7625 8850 50  0000 L CNN "Package"
+	1    7600 9000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_OrangePiR1:GND #PWR0157
+U 1 1 6179E347
+P 7600 9300
+F 0 "#PWR0157" H 7600 9050 50  0001 C CNN
+F 1 "GND" H 7605 9127 50  0000 C CNN
+F 2 "" H 7600 9300 50  0001 C CNN
+F 3 "" H 7600 9300 50  0001 C CNN
+	1    7600 9300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7600 9300 7600 9250
+Wire Wire Line
+	7600 9250 7350 9250
+Wire Wire Line
+	6650 9250 6650 9125
+Connection ~ 7600 9250
+Wire Wire Line
+	7600 9250 7600 9125
+Wire Wire Line
+	6900 9125 6900 9250
+Connection ~ 6900 9250
+Wire Wire Line
+	6900 9250 6650 9250
+Connection ~ 7125 9250
+Wire Wire Line
+	7125 9250 6900 9250
+Wire Wire Line
+	7125 9125 7125 9250
+Wire Wire Line
+	7350 9125 7350 9250
+Connection ~ 7350 9250
+Wire Wire Line
+	7350 9250 7125 9250
+Wire Wire Line
+	6650 8825 6900 8825
+Wire Wire Line
+	7600 8825 7600 8875
+Connection ~ 6650 8825
+Wire Wire Line
+	6650 8825 6650 8875
+Wire Wire Line
+	7350 8875 7350 8825
+Connection ~ 7350 8825
+Wire Wire Line
+	7350 8825 7600 8825
+Wire Wire Line
+	7125 8875 7125 8825
+Connection ~ 7125 8825
+Wire Wire Line
+	7125 8825 7350 8825
+Wire Wire Line
+	6900 8875 6900 8825
+Connection ~ 6900 8825
+Wire Wire Line
+	6900 8825 7125 8825
+$Comp
+L 1_OrangePiR1:VDD1V2-SYS #PWR0158
+U 1 1 617C1F8B
+P 6650 8750
+F 0 "#PWR0158" H 6650 8600 50  0001 C CNN
+F 1 "VDD1V2-SYS" H 6650 8877 50  0000 C CNN
+F 2 "" H 6650 8750 50  0001 C CNN
+F 3 "" H 6650 8750 50  0001 C CNN
+	1    6650 8750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 8750 6650 8825
+Text Notes 3525 8500 0    50   ~ 0
+DECOUPLE CAP
+$Comp
+L 1_OrangePiR1:VCC-RTC #PWR0159
+U 1 1 6180D256
+P 3725 9850
+F 0 "#PWR0159" H 3725 9700 50  0001 C CNN
+F 1 "VCC-RTC" H 3725 9977 50  0000 C CNN
+F 2 "" H 3725 9850 50  0001 C CNN
+F 3 "" H 3725 9850 50  0001 C CNN
+	1    3725 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_OrangePiR1:CAP0402 C30
+U 1 1 6180D73E
+P 3725 10075
+F 0 "C30" H 3750 10175 50  0000 L CNN
+F 1 "CAP0402" H 3725 10275 50  0001 C CNN
+F 2 "1_OrangePiR1:CAP0402" H 3575 10175 50  0001 C CNN
+F 3 "" H 3575 10175 50  0001 C CNN
+F 4 "0.1uF" H 3750 9975 50  0000 L CNN "Capacitance"
+F 5 "50V" H 3895 10055 50  0001 C CNN "Voltage"
+F 6 "0402" H 3750 9900 50  0000 L CNN "Package"
+	1    3725 10075
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_OrangePiR1:GND #PWR0160
+U 1 1 6180DEAE
+P 3725 10275
+F 0 "#PWR0160" H 3725 10025 50  0001 C CNN
+F 1 "GND" H 3730 10102 50  0000 C CNN
+F 2 "" H 3725 10275 50  0001 C CNN
+F 3 "" H 3725 10275 50  0001 C CNN
+	1    3725 10275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3725 10275 3725 10200
+Wire Wire Line
+	3725 9950 3725 9850
+$Comp
+L 1_OrangePiR1:VCC-IO #PWR0161
+U 1 1 61859742
+P 4350 9825
+F 0 "#PWR0161" H 4350 9675 50  0001 C CNN
+F 1 "VCC-IO" H 4353 9952 50  0000 C CNN
+F 2 "" H 4350 9825 50  0001 C CNN
+F 3 "" H 4350 9825 50  0001 C CNN
+	1    4350 9825
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_OrangePiR1:RES402 R9
+U 1 1 6185A61E
+P 4625 10025
+F 0 "R9" V 4550 9850 50  0000 C CNN
+F 1 "RES402" V 4550 10025 50  0001 C CNN
+F 2 "1_OrangePiR1:RES0402" V 4555 10025 50  0001 C CNN
+F 3 "" H 4625 10025 50  0001 C CNN
+F 4 "NC/ 1Ω" V 4550 10075 50  0000 C CNN "Resistance"
+F 5 "0402" V 4700 10000 50  0000 C CNN "Package"
+F 6 "1%" V 4550 10325 50  0000 C CNN "Tolerance"
+	1    4625 10025
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4475 10025 4350 10025
+Wire Wire Line
+	4350 10025 4350 9825
+$Comp
+L 1_OrangePiR1:AVCC #PWR0162
+U 1 1 618826E2
+P 5100 9825
+F 0 "#PWR0162" H 5100 9675 50  0001 C CNN
+F 1 "AVCC" H 5100 9952 50  0000 C CNN
+F 2 "" H 5100 9825 50  0001 C CNN
+F 3 "" H 5100 9825 50  0001 C CNN
+	1    5100 9825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4775 10025 4950 10025
+Wire Wire Line
+	5100 10025 5100 9825
+$Comp
+L 1_OrangePiR1:CAP0603 C31
+U 1 1 618A7B91
+P 4950 10250
+F 0 "C31" H 4975 10350 50  0000 L CNN
+F 1 "CAP0603" H 4950 10450 50  0001 C CNN
+F 2 "1_OrangePiR1:CAP0603" H 4800 10350 50  0001 C CNN
+F 3 "" H 4800 10350 50  0001 C CNN
+F 4 "10uF" H 4975 10175 50  0000 L CNN "Capacitance"
+F 5 "50V" H 5120 10230 50  0001 C CNN "Voltage"
+F 6 "0603" H 4975 10100 50  0000 L CNN "Package"
+	1    4950 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_OrangePiR1:CAP0402 C32
+U 1 1 618A8692
+P 5175 10250
+F 0 "C32" H 5200 10350 50  0000 L CNN
+F 1 "CAP0402" H 5175 10450 50  0001 C CNN
+F 2 "1_OrangePiR1:CAP0402" H 5025 10350 50  0001 C CNN
+F 3 "" H 5025 10350 50  0001 C CNN
+F 4 "0.1uF" H 5200 10175 50  0000 L CNN "Capacitance"
+F 5 "50V" H 5345 10230 50  0001 C CNN "Voltage"
+F 6 "0402" H 5200 10100 50  0000 L CNN "Package"
+	1    5175 10250
+	1    0    0    -1  
+$EndComp
+Connection ~ 4950 10025
+Wire Wire Line
+	4950 10025 5100 10025
+Wire Wire Line
+	5175 10025 5100 10025
+Connection ~ 5100 10025
+Wire Wire Line
+	4950 10025 4950 10125
+Wire Wire Line
+	5175 10025 5175 10125
+Wire Wire Line
+	4950 10375 4950 10500
+Wire Wire Line
+	4950 10500 5175 10500
+Wire Wire Line
+	5175 10500 5175 10375
+$Comp
+L 1_OrangePiR1:CAP0603 C33
+U 1 1 6196F099
+P 5600 10250
+F 0 "C33" H 5625 10350 50  0000 L CNN
+F 1 "CAP0603" H 5600 10450 50  0001 C CNN
+F 2 "1_OrangePiR1:CAP0603" H 5450 10350 50  0001 C CNN
+F 3 "" H 5450 10350 50  0001 C CNN
+F 4 "10uF" H 5625 10175 50  0000 L CNN "Capacitance"
+F 5 "50V" H 5770 10230 50  0001 C CNN "Voltage"
+F 6 "0603" H 5625 10100 50  0000 L CNN "Package"
+	1    5600 10250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 1_OrangePiR1:CAP0402 C34
+U 1 1 6196F0A2
+P 5825 10250
+F 0 "C34" H 5850 10350 50  0000 L CNN
+F 1 "CAP0402" H 5825 10450 50  0001 C CNN
+F 2 "1_OrangePiR1:CAP0402" H 5675 10350 50  0001 C CNN
+F 3 "" H 5675 10350 50  0001 C CNN
+F 4 "0.1uF" H 5850 10175 50  0000 L CNN "Capacitance"
+F 5 "50V" H 5995 10230 50  0001 C CNN "Voltage"
+F 6 "0402" H 5850 10100 50  0000 L CNN "Package"
+	1    5825 10250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5175 10500 5600 10500
+Wire Wire Line
+	5600 10500 5600 10375
+Connection ~ 5175 10500
+Wire Wire Line
+	5600 10500 5825 10500
+Wire Wire Line
+	5825 10500 5825 10375
+Connection ~ 5600 10500
+Wire Wire Line
+	5600 10125 5600 9900
+Wire Wire Line
+	5600 9900 5825 9900
+Wire Wire Line
+	5825 9900 5825 10125
+Wire Wire Line
+	5325 9900 5600 9900
+Connection ~ 5600 9900
+Text Label 5375 9900 0    50   ~ 0
+VRP
+$Comp
+L 1_OrangePiR1:CAP0402 C35
+U 1 1 61A5C258
+P 6325 10250
+F 0 "C35" H 6350 10350 50  0000 L CNN
+F 1 "CAP0402" H 6325 10450 50  0001 C CNN
+F 2 "1_OrangePiR1:CAP0402" H 6175 10350 50  0001 C CNN
+F 3 "" H 6175 10350 50  0001 C CNN
+F 4 "4.7uF" H 6350 10175 50  0000 L CNN "Capacitance"
+F 5 "50V" H 6495 10230 50  0001 C CNN "Voltage"
+F 6 "0402" H 6350 10100 50  0000 L CNN "Package"
+	1    6325 10250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6325 10125 6325 9900
+Wire Wire Line
+	6325 9900 6000 9900
+Text Label 6075 9900 0    50   ~ 0
+VRA2
+$Comp
+L 1_OrangePiR1:RES402 R10
+U 1 1 61A865E9
+P 6600 10275
+F 0 "R10" H 6475 10250 50  0000 C CNN
+F 1 "RES402" V 6525 10275 50  0001 C CNN
+F 2 "1_OrangePiR1:RES0402" V 6530 10275 50  0001 C CNN
+F 3 "" H 6600 10275 50  0001 C CNN
+F 4 "220KΩ" H 6425 10325 50  0000 C CNN "Resistance"
+F 5 "0402" H 6450 10400 50  0000 C CNN "Package"
+F 6 "1%" V 6525 10575 50  0001 C CNN "Tolerance"
+	1    6600 10275
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5825 10500 6325 10500
+Wire Wire Line
+	6325 10500 6325 10375
+Connection ~ 5825 10500
+Wire Wire Line
+	6325 10500 6600 10500
+Wire Wire Line
+	6600 10500 6600 10425
+Connection ~ 6325 10500
+Wire Wire Line
+	6600 10125 6600 9900
+Wire Wire Line
+	6600 9900 6325 9900
+Connection ~ 6325 9900
+$Comp
+L 1_OrangePiR1:CAP0402 C36
+U 1 1 61B54302
+P 7150 10250
+F 0 "C36" H 7175 10350 50  0000 L CNN
+F 1 "CAP0402" H 7150 10450 50  0001 C CNN
+F 2 "1_OrangePiR1:CAP0402" H 7000 10350 50  0001 C CNN
+F 3 "" H 7000 10350 50  0001 C CNN
+F 4 "1uF" H 7175 10175 50  0000 L CNN "Capacitance"
+F 5 "50V" H 7320 10230 50  0001 C CNN "Voltage"
+F 6 "0402" H 7175 10100 50  0000 L CNN "Package"
+	1    7150 10250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 10500 7150 10500
+Wire Wire Line
+	7150 10500 7150 10375
+Connection ~ 6600 10500
+Wire Wire Line
+	7150 10125 7150 9900
+Wire Wire Line
+	7150 9900 6775 9900
+Text Label 6875 9900 0    50   ~ 0
+VRA1
+Wire Wire Line
+	7150 10500 7825 10500
+Wire Wire Line
+	7825 10500 7825 9900
+Wire Wire Line
+	7825 9900 7450 9900
+Connection ~ 7150 10500
+Text Label 7550 9900 0    50   ~ 0
+AGND
+$Comp
+L 1_OrangePiR1:RES402 R12
+U 1 1 61C522FC
+P 7350 10750
+F 0 "R12" V 7275 10575 50  0000 C CNN
+F 1 "RES402" V 7275 10750 50  0001 C CNN
+F 2 "1_OrangePiR1:RES0402" V 7280 10750 50  0001 C CNN
+F 3 "" H 7350 10750 50  0001 C CNN
+F 4 "0Ω" V 7275 10800 50  0000 C CNN "Resistance"
+F 5 "0402" V 7275 11025 50  0000 C CNN "Package"
+F 6 "1%" V 7275 11050 50  0001 C CNN "Tolerance"
+	1    7350 10750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7500 10750 7825 10750
+Wire Wire Line
+	7825 10750 7825 10500
+Connection ~ 7825 10500
+$Comp
+L 1_OrangePiR1:GND #PWR0163
+U 1 1 61CAAEE0
+P 6825 10750
+F 0 "#PWR0163" H 6825 10500 50  0001 C CNN
+F 1 "GND" H 6830 10577 50  0000 C CNN
+F 2 "" H 6825 10750 50  0001 C CNN
+F 3 "" H 6825 10750 50  0001 C CNN
+	1    6825 10750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 10750 6825 10750
+Wire Notes Line width 12
+	3375 8275 8050 8275
+Wire Notes Line width 12
+	8050 8275 8050 11025
+Wire Notes Line width 12
+	3375 11025 8050 11025
+Wire Notes Line width 12
+	3375 8275 3375 11025
+$Comp
+L 1_OrangePiR1:XBS104S14 D18
+U 1 1 61E859CD
+P 8450 10100
+F 0 "D18" V 8300 10150 50  0000 L CNN
+F 1 "XBS104S14" V 8550 10125 50  0000 L CNN
+F 2 "1_OrangePiR1:XBS104S14" H 8450 10100 50  0001 C CNN
+F 3 "~" H 8450 10100 50  0001 C CNN
+F 4 "SOD123" V 8650 10125 50  0000 L CNN "Package"
+	1    8450 10100
+	0    1    1    0   
+$EndComp
+$Comp
+L 1_OrangePiR1:RES402 R340
+U 1 1 61EDB9E6
+P 9025 10125
+F 0 "R340" H 8900 10100 50  0000 C CNN
+F 1 "RES402" V 8950 10125 50  0001 C CNN
+F 2 "1_OrangePiR1:RES0402" V 8955 10125 50  0001 C CNN
+F 3 "" H 9025 10125 50  0001 C CNN
+F 4 "10KΩ" H 8850 10175 50  0000 C CNN "Resistance"
+F 5 "0402" H 8875 10250 50  0000 C CNN "Package"
+F 6 "1%" V 8950 10425 50  0001 C CNN "Tolerance"
+	1    9025 10125
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8450 10250 8450 10400
+Wire Wire Line
+	8450 10400 9025 10400
+Wire Wire Line
+	9025 10400 9025 10275
+$Comp
+L 1_OrangePiR1:GND #PWR0164
+U 1 1 61F0C3BB
+P 9025 10450
+F 0 "#PWR0164" H 9025 10200 50  0001 C CNN
+F 1 "GND" H 9030 10277 50  0000 C CNN
+F 2 "" H 9025 10450 50  0001 C CNN
+F 3 "" H 9025 10450 50  0001 C CNN
+	1    9025 10450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9025 10450 9025 10400
+Connection ~ 9025 10400
+Wire Wire Line
+	9025 9975 9025 9775
+Wire Wire Line
+	9025 9775 8450 9775
+Wire Wire Line
+	8450 9775 8450 9950
+$Comp
+L 1_OrangePiR1:CAP0603 C301
+U 1 1 61F67902
+P 9025 9475
+F 0 "C301" H 9050 9575 50  0000 L CNN
+F 1 "CAP0603" H 9025 9675 50  0001 C CNN
+F 2 "1_OrangePiR1:CAP0603" H 8875 9575 50  0001 C CNN
+F 3 "" H 8875 9575 50  0001 C CNN
+F 4 "4.7uF" H 9050 9400 50  0000 L CNN "Capacitance"
+F 5 "50V" H 9195 9455 50  0001 C CNN "Voltage"
+F 6 "0603" H 9050 9325 50  0000 L CNN "Package"
+	1    9025 9475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9025 9600 9025 9775
+Connection ~ 9025 9775
+$Comp
+L 1_OrangePiR1:VCC-IO #PWR0165
+U 1 1 61FC67AE
+P 9025 9200
+F 0 "#PWR0165" H 9025 9050 50  0001 C CNN
+F 1 "VCC-IO" H 9028 9327 50  0000 C CNN
+F 2 "" H 9025 9200 50  0001 C CNN
+F 3 "" H 9025 9200 50  0001 C CNN
+	1    9025 9200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9025 9200 9025 9350
+$Comp
+L 1_OrangePiR1:RES402 R346
+U 1 1 6204DC60
+P 9500 9775
+F 0 "R346" V 9425 9600 50  0000 C CNN
+F 1 "RES402" V 9425 9775 50  0001 C CNN
+F 2 "1_OrangePiR1:RES0402" V 9430 9775 50  0001 C CNN
+F 3 "" H 9500 9775 50  0001 C CNN
+F 4 "10KΩ" V 9425 9850 50  0000 C CNN "Resistance"
+F 5 "0402" V 9600 9725 50  0000 C CNN "Package"
+F 6 "1%" V 9425 10075 50  0001 C CNN "Tolerance"
+	1    9500 9775
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9025 9775 9350 9775
+$Comp
+L 1_OrangePiR1:MMBT3904 Q9
+U 1 1 62099B28
+P 9950 9775
+F 0 "Q9" H 10141 9866 50  0000 L CNN
+F 1 "MMBT3904" H 10141 9775 50  0000 L CNN
+F 2 "1_OrangePiR1:MMBT3904" H 10150 9875 50  0001 C CNN
+F 3 "~" H 9950 9775 50  0001 C CNN
+F 4 "SOT-23" H 10141 9684 50  0000 L CNN "Package"
+	1    9950 9775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9750 9775 9650 9775
+$Comp
+L 1_OrangePiR1:GND #PWR0166
+U 1 1 620C91E0
+P 10050 10150
+F 0 "#PWR0166" H 10050 9900 50  0001 C CNN
+F 1 "GND" H 10055 9977 50  0000 C CNN
+F 2 "" H 10050 10150 50  0001 C CNN
+F 3 "" H 10050 10150 50  0001 C CNN
+	1    10050 10150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10050 9975 10050 10150
+$Comp
+L 1_OrangePiR1:RES402 R347
+U 1 1 621C2390
+P 10325 9325
+F 0 "R347" H 10200 9300 50  0000 C CNN
+F 1 "RES402" V 10250 9325 50  0001 C CNN
+F 2 "1_OrangePiR1:RES0402" V 10255 9325 50  0001 C CNN
+F 3 "" H 10325 9325 50  0001 C CNN
+F 4 "10KΩ" H 10150 9375 50  0000 C CNN "Resistance"
+F 5 "0402" H 10175 9450 50  0000 C CNN "Package"
+F 6 "1%" V 10250 9625 50  0001 C CNN "Tolerance"
+	1    10325 9325
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10050 9575 10050 9525
+Wire Wire Line
+	10050 9525 10325 9525
+Wire Wire Line
+	10325 9525 10325 9475
+$Comp
+L 1_OrangePiR1:VCC-RTC #PWR0167
+U 1 1 621FAE23
+P 10325 9100
+F 0 "#PWR0167" H 10325 8950 50  0001 C CNN
+F 1 "VCC-RTC" H 10325 9227 50  0000 C CNN
+F 2 "" H 10325 9100 50  0001 C CNN
+F 3 "" H 10325 9100 50  0001 C CNN
+	1    10325 9100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10325 9100 10325 9175
+$Comp
+L 1_OrangePiR1:CAP0402 C65
+U 1 1 6222A94A
+P 10950 10075
+F 0 "C65" H 10975 10175 50  0000 L CNN
+F 1 "CAP0402" H 10950 10275 50  0001 C CNN
+F 2 "1_OrangePiR1:CAP0402" H 10800 10175 50  0001 C CNN
+F 3 "" H 10800 10175 50  0001 C CNN
+F 4 "0.1uF" H 10975 10000 50  0000 L CNN "Capacitance"
+F 5 "50V" H 11120 10055 50  0001 C CNN "Voltage"
+F 6 "0402" H 10975 9925 50  0000 L CNN "Package"
+	1    10950 10075
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10950 9950 10950 9525
+Wire Wire Line
+	10950 9525 10650 9525
+Connection ~ 10325 9525
+Wire Wire Line
+	10950 9525 11500 9525
+Connection ~ 10950 9525
+Text Label 11000 9525 0    50   ~ 0
+AP-RESET#
+$Comp
+L 1_OrangePiR1:SOD882-ESD D48
+U 1 1 62336C7B
+P 10650 10300
+F 0 "D48" V 10300 10125 50  0000 L CNN
+F 1 "SOD882-ESD" H 10100 10425 50  0000 L CNN
+F 2 "1_OrangePiR1:SOD882-ESD" H 10650 10300 50  0001 C CNN
+F 3 "~" H 10650 10300 50  0001 C CNN
+F 4 "SOD-882" H 10650 10300 50  0001 C CNN "Package"
+F 5 "NC/" H 10600 10425 50  0000 L CNN "Comment"
+	1    10650 10300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	10650 10050 10650 9525
+Connection ~ 10650 9525
+Wire Wire Line
+	10650 9525 10325 9525
+Wire Wire Line
+	10650 10450 10650 10500
+Wire Wire Line
+	10650 10500 10950 10500
+Wire Wire Line
+	10950 10500 10950 10200
+$Comp
+L 1_OrangePiR1:GND #PWR0168
+U 1 1 62427C67
+P 10650 10600
+F 0 "#PWR0168" H 10650 10350 50  0001 C CNN
+F 1 "GND" H 10655 10427 50  0000 C CNN
+F 2 "" H 10650 10600 50  0001 C CNN
+F 3 "" H 10650 10600 50  0001 C CNN
+	1    10650 10600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10650 10600 10650 10500
+Connection ~ 10650 10500
+Wire Notes Line width 12
+	8275 8325 11625 8325
+Wire Notes Line width 12
+	11625 8350 11625 10875
+Wire Notes Line width 12
+	8275 8325 8275 10875
+Wire Notes Line width 12
+	8275 10875 11625 10875
+Text Notes 8475 8625 0    50   ~ 0
+RESET-Option
+Text Notes 700  875  0    150  ~ 30
+CPU
+NoConn ~ 1825 1825
+NoConn ~ 1825 1900
+NoConn ~ 1825 2800
+NoConn ~ 6100 1550
+NoConn ~ 6100 1625
+NoConn ~ 6100 1700
+NoConn ~ 6100 1775
+NoConn ~ 6100 1850
+NoConn ~ 6100 1925
+NoConn ~ 6100 2000
+NoConn ~ 6100 2075
+NoConn ~ 6100 2150
+NoConn ~ 6100 2225
+NoConn ~ 6100 2300
+NoConn ~ 6100 2450
+NoConn ~ 6100 2525
+NoConn ~ 6100 2600
+NoConn ~ 6100 2675
+NoConn ~ 6100 2750
+NoConn ~ 6100 2825
+NoConn ~ 6100 4300
+NoConn ~ 6100 4225
+NoConn ~ 6100 4150
+NoConn ~ 6100 4075
+NoConn ~ 6100 4000
+NoConn ~ 6100 3925
+NoConn ~ 6100 3850
+NoConn ~ 6100 3775
+NoConn ~ 6100 3700
+NoConn ~ 6100 3625
+NoConn ~ 6100 3550
+NoConn ~ 6100 3475
+NoConn ~ 6100 3400
+NoConn ~ 6100 3325
+NoConn ~ 6100 3250
+NoConn ~ 6100 3175
+NoConn ~ 4425 5350
+NoConn ~ 4425 5425
+NoConn ~ 4425 5500
+NoConn ~ 4425 5575
+NoConn ~ 4425 5650
+NoConn ~ 4425 5725
+NoConn ~ 4425 5800
+NoConn ~ 4425 5875
+NoConn ~ 4425 5950
+NoConn ~ 4425 6025
+NoConn ~ 4425 6100
+NoConn ~ 4425 6175
+NoConn ~ 9450 3875
+NoConn ~ 9450 4100
+NoConn ~ 9625 1975
+NoConn ~ 9625 2050
+NoConn ~ 9625 2350
+NoConn ~ 13925 4550
+NoConn ~ 13925 4475
+NoConn ~ 13925 5975
+NoConn ~ 13925 6050
+Wire Wire Line
+	9850 2350 9625 2350
+Text GLabel 9850 2350 2    43   Output ~ 0
+AFCC_EN
+Wire Wire Line
+	9850 2200 9625 2200
+Text GLabel 9850 2200 2    43   Output ~ 0
+CSI_EN
+Wire Wire Line
+	9625 2050 9850 2050
+Text GLabel 9850 2050 2    43   Output ~ 0
+UART1_CTS
+Wire Wire Line
+	9850 1975 9625 1975
+Text GLabel 9850 1975 2    43   Output ~ 0
+UART1_RTS
+NoConn ~ 9625 2200
+NoConn ~ 14075 7300
+NoConn ~ 14075 7375
+NoConn ~ 14075 7450
+NoConn ~ 14500 6050
+NoConn ~ 14500 5975
+$EndSCHEMATC

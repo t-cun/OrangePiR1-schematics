@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name OrangePiR1)(type KiCad)(uri ${KIPRJMOD}/OrangePiR1.pretty)(options "")(descr "")(disabled))
+  (lib (name 1_OrangePiR1)(type KiCad)(uri ${KIPRJMOD}/1_OrangePiR1.pretty)(options "")(descr ""))
+)

@@ -1,0 +1,430 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 105162-0101
+D SD Card Reader
+K connector SD
+$ENDCMP
+#
+$CMP 48025-1091
+D Ethernet connector with Magnetics
+$ENDCMP
+#
+$CMP 592D477X06R3C2T20H
+D Tantalum capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP 74404063330
+D Inductor SMD 1.22A
+K inductor
+F ~
+$ENDCMP
+#
+$CMP AO3415A
+D P-MOSFET transistor,
+K transistor PMOS P-MOS P-MOSFET
+F ~
+$ENDCMP
+#
+$CMP AO3423
+D P-MOSFET transistor,
+K transistor PMOS P-MOS P-MOSFET
+F ~
+$ENDCMP
+#
+$CMP AVCC
+D Power symbol creates a global label with name "AVCC"
+K power-flag
+$ENDCMP
+#
+$CMP BCM856BS
+D Double PNP transistors, current mirror configuration
+K transistor PNP
+F ~
+$ENDCMP
+#
+$CMP BSN20
+D N-MOSFET transistor,
+K transistor NMOS N-MOS N-MOSFET
+F ~
+$ENDCMP
+#
+$CMP Cap_Pol
+D Polarized capacitor, small US symbol
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP DCIN
+D Power symbol creates a global label with name "DCIN"
+K power-flag
+$ENDCMP
+#
+$CMP DCIN-5V
+D Power symbol creates a global label with name "DCIN-5V"
+K power-flag
+$ENDCMP
+#
+$CMP DDR3-FBGA96
+D SAMSUNG K4B2G1646F-BYMA RAM 256MB
+$ENDCMP
+#
+$CMP ESL100503
+D Schottky diode, filled shape
+K diode Schottky
+F ~
+$ENDCMP
+#
+$CMP GND
+D Power symbol creates a global label with name "GND" , reference supply ground
+K power-flag
+$ENDCMP
+#
+$CMP H3-BGA3XX_11
+D ALLWINNER H2+ PROCESSOR
+$ENDCMP
+#
+$CMP HDMI-3V
+D Power symbol creates a global label with name "HDMI-3V"
+K power-flag
+$ENDCMP
+#
+$CMP Inductor1
+D Inductor
+K inductor
+F ~
+$ENDCMP
+#
+$CMP L0402
+D Inductor
+K inductor
+F ~
+$ENDCMP
+#
+$CMP L0603
+D Inductor
+K inductor
+F ~
+$ENDCMP
+#
+$CMP MMBT3904
+D NPN transistor,
+K transistor NPN
+F ~
+$ENDCMP
+#
+$CMP NRVTS260ESF
+D Schottky diode, filled shape
+K diode Schottky
+F ~
+$ENDCMP
+#
+$CMP PDS5100
+D Schottky diode, filled shape
+K diode Schottky
+F ~
+$ENDCMP
+#
+$CMP PGND
+D Power symbol creates a global label with name "PGND" , power ground
+K power-flag
+$ENDCMP
+#
+$CMP PGND1
+D Power symbol creates a global label with name "PGND1" , power ground
+K power-flag
+$ENDCMP
+#
+$CMP POE_5V
+D Power symbol creates a global label with name "POE_5V"
+K power-flag
+$ENDCMP
+#
+$CMP POE_5V25
+D Power symbol creates a global label with name "POE_5V25"
+K power-flag
+$ENDCMP
+#
+$CMP S215FA
+D Schottky diode, filled shape
+K diode Schottky
+F ~
+$ENDCMP
+#
+$CMP SOD882-ESD
+D Schottky diode, filled shape
+K diode Schottky
+F ~
+$ENDCMP
+#
+$CMP SS2150
+D Schottky diode, filled shape
+K diode Schottky
+F ~
+$ENDCMP
+#
+$CMP SWPA3015S2R2NT
+D Inductor
+K inductor
+F ~
+$ENDCMP
+#
+$CMP SWPA4030S2R2NT
+D Inductor
+K inductor
+F ~
+$ENDCMP
+#
+$CMP Si3402B
+D PoE Controller
+$ENDCMP
+#
+$CMP TAJD687K006RNJV
+D Tantalum capacitor
+K cap capacitor
+F ~
+$ENDCMP
+#
+$CMP VBUS
+D Power symbol creates a global label with name "VBUS"
+K power-flag
+$ENDCMP
+#
+$CMP VCC-1V2
+D Power symbol creates a global label with name "VCC-1V2"
+K power-flag
+$ENDCMP
+#
+$CMP VCC-3V3
+D Power symbol creates a global label with name "VCC-3V3"
+K power-flag
+$ENDCMP
+#
+$CMP VCC-5V
+D Power symbol creates a global label with name "VCC-5V"
+K power-flag
+$ENDCMP
+#
+$CMP VCC-DRAM
+D Power symbol creates a global label with name "VCC-DRAM"
+K power-flag
+$ENDCMP
+#
+$CMP VCC-EPHY-LED
+D Power symbol creates a global label with name "VCC-EPHY-LED"
+K power-flag
+$ENDCMP
+#
+$CMP VCC-IO
+D Power symbol creates a global label with name "VCC-IO"
+K power-flag
+$ENDCMP
+#
+$CMP VCC-IR
+D Power symbol creates a global label with name "VCC-IR"
+K power-flag
+$ENDCMP
+#
+$CMP VCC-JTAGX
+D Power symbol creates a global label with name "VCC-JTAGX"
+K power-flag
+$ENDCMP
+#
+$CMP VCC-KEY
+D Power symbol creates a global label with name "VCC-KEY"
+K power-flag
+$ENDCMP
+#
+$CMP VCC-KEY-PWR
+D Power symbol creates a global label with name "VCC-KEY-PWR"
+K power-flag
+$ENDCMP
+#
+$CMP VCC-NAND
+D Power symbol creates a global label with name "VCC-NAND"
+K power-flag
+$ENDCMP
+#
+$CMP VCC-RTC
+D Power symbol creates a global label with name "VCC-RTC"
+K power-flag
+$ENDCMP
+#
+$CMP VCC-SDC
+D Power symbol creates a global label with name "VCC-SDC"
+K power-flag
+$ENDCMP
+#
+$CMP VCC-UARTX
+D Power symbol creates a global label with name "VCC-UARTX"
+K power-flag
+$ENDCMP
+#
+$CMP VCC-WIFI
+D Power symbol creates a global label with name "VCC-WIFI"
+K power-flag
+$ENDCMP
+#
+$CMP VCC-WIFI-IO
+D Power symbol creates a global label with name "VCC-WIFI-IO"
+K power-flag
+$ENDCMP
+#
+$CMP VCC3V-PLL
+D Power symbol creates a global label with name "VCC3V-PLL"
+K power-flag
+$ENDCMP
+#
+$CMP VCC3V-TV
+D Power symbol creates a global label with name "VCC3V-TV"
+K power-flag
+$ENDCMP
+#
+$CMP VCC3V3-AUDIO
+D Power symbol creates a global label with name "VCC3V3-AUDIO"
+K power-flag
+$ENDCMP
+#
+$CMP VCC3V3-EFUSE
+D Power symbol creates a global label with name "VCC3V3-EFUSE"
+K power-flag
+$ENDCMP
+#
+$CMP VCC3V3-EPHY
+D Power symbol creates a global label with name "VCC3V3-EPHY"
+K power-flag
+$ENDCMP
+#
+$CMP VCC3V3-EXT
+D Power symbol creates a global label with name "VCC3V3-EXT"
+K power-flag
+$ENDCMP
+#
+$CMP VCC3V3-FELED
+D Power symbol creates a global label with name "VCC3V3-FELED"
+K power-flag
+$ENDCMP
+#
+$CMP VCC3V3-HDMI
+D Power symbol creates a global label with name "VCC3V3-HDMI"
+K power-flag
+$ENDCMP
+#
+$CMP VCC3V3-IR
+D Power symbol creates a global label with name "VCC3V3-IR"
+K power-flag
+$ENDCMP
+#
+$CMP VCC3V3-JTAGX
+D Power symbol creates a global label with name "VCC3V3-JTAGX"
+K power-flag
+$ENDCMP
+#
+$CMP VCC3V3-KEY
+D Power symbol creates a global label with name "VCC3V3-KEY"
+K power-flag
+$ENDCMP
+#
+$CMP VCC3V3-KEYPWR
+D Power symbol creates a global label with name "VCC3V3-KEYPWR"
+K power-flag
+$ENDCMP
+#
+$CMP VCC3V3-LED
+D Power symbol creates a global label with name "VCC3V3-LED"
+K power-flag
+$ENDCMP
+#
+$CMP VCC3V3-NAND
+D Power symbol creates a global label with name "VCC3V3-NAND"
+K power-flag
+$ENDCMP
+#
+$CMP VCC3V3-SDC
+D Power symbol creates a global label with name "VCC3V3-SDC"
+K power-flag
+$ENDCMP
+#
+$CMP VCC3V3-UARTX
+D Power symbol creates a global label with name "VCC3V3-UARTX"
+K power-flag
+$ENDCMP
+#
+$CMP VCC3V3-USB
+D Power symbol creates a global label with name "VCC3V3-USB"
+K power-flag
+$ENDCMP
+#
+$CMP VCC3V3-USBWIFI
+D Power symbol creates a global label with name "VCC3V3-USBWIFI"
+K power-flag
+$ENDCMP
+#
+$CMP VCC5V-HDMI
+D Power symbol creates a global label with name "VCC5V-HDMI"
+K power-flag
+$ENDCMP
+#
+$CMP VCC5V-SPDIF
+D Power symbol creates a global label with name "VCC5V-SPDIF"
+K power-flag
+$ENDCMP
+#
+$CMP VCC5V-USB
+D Power symbol creates a global label with name "VCC5V-USB"
+K power-flag
+$ENDCMP
+#
+$CMP VDD-CPUS
+D Power symbol creates a global label with name "VDD-CPUS"
+K power-flag
+$ENDCMP
+#
+$CMP VDD-CPUX
+D Power symbol creates a global label with name "VDD-CPUX"
+K power-flag
+$ENDCMP
+#
+$CMP VDD10
+D Power symbol creates a global label with name "VDD10"
+K power-flag
+$ENDCMP
+#
+$CMP VDD10_UPS
+D Power symbol creates a global label with name "VDD10_UPS"
+K power-flag
+$ENDCMP
+#
+$CMP VDD1V1-EPHY
+D Power symbol creates a global label with name "VDD1V1-EPHY"
+K power-flag
+$ENDCMP
+#
+$CMP VDD1V2-SYS
+D Power symbol creates a global label with name "VDD1V2-SYS"
+K power-flag
+$ENDCMP
+#
+$CMP VDD33
+D Power symbol creates a global label with name "VDD5"
+K power-flag
+$ENDCMP
+#
+$CMP VDD5
+D Power symbol creates a global label with name "VDD5"
+K power-flag
+$ENDCMP
+#
+$CMP Vneg
+D Power symbol creates a global label with name "Vneg" , reference supply ground
+K power-flag
+$ENDCMP
+#
+$CMP XBS104S14
+D Schottky diode, filled shape
+K diode Schottky
+F ~
+$ENDCMP
+#
+#End Doc Library
